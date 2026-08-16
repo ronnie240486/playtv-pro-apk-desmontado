@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/orplayer_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_backdrop" android:background="@drawable/corner_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.7" />
+    <LinearLayout android:orientation="horizontal" android:background="#be151212" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip">
+                <ImageView android:id="@id/img_movie" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </androidx.cardview.widget.CardView>
+            <FrameLayout android:id="@id/layout_movide_details_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/background_light" android:id="@id/txt_name" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="5.0dip" android:fontFamily="@font/quicksand_light" />
+                    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffc107" android:id="@id/txt_rating" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip" android:fontFamily="@font/quicksand_regular" />
+                    <TextView android:textStyle="bold" android:textColor="#ff86cded" android:id="@id/txt_releasedate" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fontFamily="@font/quicksand_light" />
+                    <TextView android:textStyle="bold" android:textColor="@android:color/background_light" android:id="@id/txt_genre" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:fontFamily="@font/quicksand_regular" />
+                    <TextView android:textColor="#ffa9d379" android:id="@id/txt_cast" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fontFamily="@font/quicksand_regular" />
+                    <TextView android:textColor="@android:color/background_light" android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/txt_plot" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:fontFamily="@font/quicksand_regular" />
+                    <TextView android:textStyle="bold" android:textColor="#ffb3bced" android:id="@id/txt_director" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fontFamily="@font/quicksand_regular" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip">
+        <Button android:textStyle="bold" android:layout_gravity="bottom" android:id="@id/btn_trailer" android:background="@drawable/btn" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="Trailer" android:layout_weight="1.0" android:fontFamily="@font/quicksand_bold" />
+        <Button android:textStyle="bold" android:layout_gravity="bottom" android:id="@id/btn_play" android:background="@drawable/btn" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/xc_play" android:layout_weight="1.0" android:fontFamily="@font/quicksand_bold" />
+    </LinearLayout>
+</FrameLayout>

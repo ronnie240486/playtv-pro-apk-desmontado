@@ -1,0 +1,234 @@
+.class public final enum Lr4/z;
+.super Ljava/lang/Enum;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/protobuf/o1;
+
+
+# static fields
+.field public static final enum A:Lr4/z;
+
+.field public static final enum B:Lr4/z;
+
+.field public static final enum C:Lr4/z;
+
+.field public static final synthetic D:[Lr4/z;
+
+.field public static final enum z:Lr4/z;
+
+
+# instance fields
+.field public final y:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 9
+
+    .line 1
+    new-instance v0, Lr4/z;
+
+    .line 3
+    const-string v1, "UNSPECIFIED_FETCH_ERROR"
+
+    .line 5
+    const/4 v2, 0x0
+
+    .line 6
+    invoke-direct {v0, v1, v2, v2}, Lr4/z;-><init>(Ljava/lang/String;II)V
+
+    .line 9
+    sput-object v0, Lr4/z;->z:Lr4/z;
+
+    .line 11
+    new-instance v1, Lr4/z;
+
+    .line 13
+    const-string v3, "SERVER_ERROR"
+
+    .line 15
+    const/4 v4, 0x1
+
+    .line 16
+    invoke-direct {v1, v3, v4, v4}, Lr4/z;-><init>(Ljava/lang/String;II)V
+
+    .line 19
+    sput-object v1, Lr4/z;->A:Lr4/z;
+
+    .line 21
+    new-instance v3, Lr4/z;
+
+    .line 23
+    const-string v5, "CLIENT_ERROR"
+
+    .line 25
+    const/4 v6, 0x2
+
+    .line 26
+    invoke-direct {v3, v5, v6, v6}, Lr4/z;-><init>(Ljava/lang/String;II)V
+
+    .line 29
+    sput-object v3, Lr4/z;->B:Lr4/z;
+
+    .line 31
+    new-instance v5, Lr4/z;
+
+    .line 33
+    const-string v7, "NETWORK_ERROR"
+
+    .line 35
+    const/4 v8, 0x3
+
+    .line 36
+    invoke-direct {v5, v7, v8, v8}, Lr4/z;-><init>(Ljava/lang/String;II)V
+
+    .line 39
+    sput-object v5, Lr4/z;->C:Lr4/z;
+
+    .line 41
+    const/4 v7, 0x4
+
+    .line 42
+    new-array v7, v7, [Lr4/z;
+
+    .line 44
+    aput-object v0, v7, v2
+
+    .line 46
+    aput-object v1, v7, v4
+
+    .line 48
+    aput-object v3, v7, v6
+
+    .line 50
+    aput-object v5, v7, v8
+
+    .line 52
+    sput-object v7, Lr4/z;->D:[Lr4/z;
+
+    .line 54
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;II)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    .line 4
+    iput p3, p0, Lr4/z;->y:I
+
+    .line 6
+    return-void
+.end method
+
+.method public static b(I)Lr4/z;
+    .locals 1
+
+    .line 1
+    if-eqz p0, :cond_3
+
+    .line 3
+    const/4 v0, 0x1
+
+    .line 4
+    if-eq p0, v0, :cond_2
+
+    .line 6
+    const/4 v0, 0x2
+
+    .line 7
+    if-eq p0, v0, :cond_1
+
+    .line 9
+    const/4 v0, 0x3
+
+    .line 10
+    if-eq p0, v0, :cond_0
+
+    .line 12
+    const/4 p0, 0x0
+
+    .line 13
+    return-object p0
+
+    .line 14
+    :cond_0
+    sget-object p0, Lr4/z;->C:Lr4/z;
+
+    .line 16
+    return-object p0
+
+    .line 17
+    :cond_1
+    sget-object p0, Lr4/z;->B:Lr4/z;
+
+    .line 19
+    return-object p0
+
+    .line 20
+    :cond_2
+    sget-object p0, Lr4/z;->A:Lr4/z;
+
+    .line 22
+    return-object p0
+
+    .line 23
+    :cond_3
+    sget-object p0, Lr4/z;->z:Lr4/z;
+
+    .line 25
+    return-object p0
+.end method
+
+.method public static valueOf(Ljava/lang/String;)Lr4/z;
+    .locals 1
+
+    .line 1
+    const-class v0, Lr4/z;
+
+    .line 3
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+
+    .line 6
+    move-result-object p0
+
+    .line 7
+    check-cast p0, Lr4/z;
+
+    .line 9
+    return-object p0
+.end method
+
+.method public static values()[Lr4/z;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lr4/z;->D:[Lr4/z;
+
+    .line 3
+    invoke-virtual {v0}, [Lr4/z;->clone()Ljava/lang/Object;
+
+    .line 6
+    move-result-object v0
+
+    .line 7
+    check-cast v0, [Lr4/z;
+
+    .line 9
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final a()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lr4/z;->y:I
+
+    .line 3
+    return v0
+.end method

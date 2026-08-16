@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/btn" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/nameview" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:textColor="#ffffffff" android:id="@id/image_expense" android:background="@drawable/dns_logo" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="25.0dip" android:layout_height="25.0dip" android:adjustViewBounds="true" android:maxWidth="72.0dip" android:maxHeight="72.0dip" android:layout_marginStart="10.0dip" />
+        <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_name" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DNS_1_NAME" android:layout_weight="1.0" android:fontFamily="@font/quicksand_bold" android:layout_marginStart="2.0dip" android:layout_marginEnd="10.0dip" />
+    </LinearLayout>
+    <TextView android:id="@id/tv_dns" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10.0000" android:layout_below="@id/nameview" />
+</RelativeLayout>

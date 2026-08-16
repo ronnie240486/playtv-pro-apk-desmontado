@@ -1,0 +1,28 @@
+package com.google.ads.interactivemedia.v3.internal;
+
+import java.util.HashMap;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class zzko extends zzhz {
+    public Long zza;
+    public Long zzb;
+
+    public zzko() {
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzhz
+    public final HashMap zzb() {
+        HashMap map = new HashMap();
+        map.put(0, this.zza);
+        map.put(1, this.zzb);
+        return map;
+    }
+
+    public zzko(String str) {
+        HashMap mapZza = zzhz.zza(str);
+        if (mapZza != null) {
+            this.zza = (Long) mapZza.get(0);
+            this.zzb = (Long) mapZza.get(1);
+        }
+    }
+}

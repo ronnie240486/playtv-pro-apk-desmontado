@@ -1,0 +1,8 @@
+.class public interface abstract Lcom/google/android/gms/internal/ads/ID;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract zzd()Lcom/google/android/gms/internal/ads/UF;
+.end method

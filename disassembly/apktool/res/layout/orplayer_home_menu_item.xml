@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/img_menu_item" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:alpha="0.5" app:srcCompat="@drawable/orplayer_menu_tv_icon" />
+        <TextView android:textColor="#ffcacaca" android:layout_gravity="center_vertical" android:id="@id/txt_menu_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="55.0dip" android:layout_marginRight="15.0dip" android:text="Live TV" android:lines="1" android:fontFamily="@font/quicksand_regular" />
+    </FrameLayout>
+</FrameLayout>

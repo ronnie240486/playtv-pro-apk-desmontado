@@ -1,0 +1,104 @@
+.class public final LD1/a;
+.super Landroid/content/BroadcastReceiver;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic A:Lcom/bumptech/glide/manager/s;
+
+.field public final y:LD1/F;
+
+.field public final z:Landroid/os/Handler;
+
+
+# direct methods
+.method public constructor <init>(Lcom/bumptech/glide/manager/s;Landroid/os/Handler;LD1/F;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, LD1/a;->A:Lcom/bumptech/glide/manager/s;
+
+    .line 3
+    invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
+
+    .line 6
+    iput-object p2, p0, LD1/a;->z:Landroid/os/Handler;
+
+    .line 8
+    iput-object p3, p0, LD1/a;->y:LD1/F;
+
+    .line 10
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onReceive(Landroid/content/Context;Landroid/content/Intent;)V
+    .locals 0
+
+    .line 1
+    const-string p1, "android.media.AUDIO_BECOMING_NOISY"
+
+    .line 3
+    invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
+
+    .line 6
+    move-result-object p2
+
+    .line 7
+    invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 10
+    move-result p1
+
+    .line 11
+    if-eqz p1, :cond_0
+
+    .line 13
+    iget-object p1, p0, LD1/a;->z:Landroid/os/Handler;
+
+    .line 15
+    invoke-virtual {p1, p0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+
+    .line 18
+    :cond_0
+    return-void
+.end method
+
+.method public final run()V
+    .locals 4
+
+    .line 1
+    iget-object v0, p0, LD1/a;->A:Lcom/bumptech/glide/manager/s;
+
+    .line 3
+    iget-boolean v0, v0, Lcom/bumptech/glide/manager/s;->A:Z
+
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 7
+    iget-object v0, p0, LD1/a;->y:LD1/F;
+
+    .line 9
+    iget-object v0, v0, LD1/F;->y:LD1/I;
+
+    .line 11
+    const/4 v1, -0x1
+
+    .line 12
+    const/4 v2, 0x3
+
+    .line 13
+    const/4 v3, 0x0
+
+    .line 14
+    invoke-virtual {v0, v3, v1, v2}, LD1/I;->Z(ZII)V
+
+    .line 17
+    :cond_0
+    return-void
+.end method

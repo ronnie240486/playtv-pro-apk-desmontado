@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="15.0dip" android:width="21.0dip" android:viewportWidth="21.0" android:viewportHeight="15.0" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@drawable/$flag_ba__0" android:pathData="M0,0h21v15h-21z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$flag_ba__1" android:pathData="M0,0h21v15h-21z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$flag_ba__2" android:pathData="M17,15l0,-15l-10.5,0z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$flag_ba__3" android:pathData="M13,14l-0.7071,0.2071l0.2071,-0.7071l-0.2071,-0.7071l0.7071,0.2071l0.7071,-0.2071l-0.2071,0.7071l0.2071,0.7071z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$flag_ba__4" android:pathData="M11,11l-0.7071,0.2071l0.2071,-0.7071l-0.2071,-0.7071l0.7071,0.2071l0.7071,-0.2071l-0.2071,0.7071l0.2071,0.7071z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$flag_ba__5" android:pathData="M9,8l-0.7071,0.2071l0.2071,-0.7071l-0.2071,-0.7071l0.7071,0.2071l0.7071,-0.2071l-0.2071,0.7071l0.2071,0.7071z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$flag_ba__6" android:pathData="M7,5l-0.7071,0.2071l0.2071,-0.7071l-0.2071,-0.7071l0.7071,0.2071l0.7071,-0.2071l-0.2071,0.7071l0.2071,0.7071z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$flag_ba__7" android:pathData="M5,2l-0.7071,0.2071l0.2071,-0.7071l-0.2071,-0.7071l0.7071,0.2071l0.7071,-0.2071l-0.2071,0.7071l0.2071,0.7071z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,61 @@
+.class public abstract Lq3/l;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/util/ListIterator;
+.implements Ljava/util/Iterator;
+
+
+# virtual methods
+.method public final a()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Ljava/lang/UnsupportedOperationException;
+
+    .line 3
+    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
+
+    .line 6
+    throw v0
+.end method
+
+.method public final add(Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    .line 3
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+
+    .line 6
+    throw p1
+.end method
+
+.method public final bridge synthetic remove()V
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lq3/l;->a()V
+
+    .line 4
+    const/4 v0, 0x0
+
+    .line 5
+    throw v0
+.end method
+
+.method public final set(Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    .line 3
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+
+    .line 6
+    throw p1
+.end method

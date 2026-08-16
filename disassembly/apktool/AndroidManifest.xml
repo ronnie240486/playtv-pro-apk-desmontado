@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="com.bx.xc7914multi" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <uses-feature android:name="android.software.leanback" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="android.hardware.faketouch" android:required="false"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.nfc" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor" android:required="false"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.bx.xc7914multi_com.google.android.assistant.READ_HOTWORD_STATE"/>
+    <uses-permission android:name="com.bx.xc7914multi_com.google.android.assistant.WRITE_HOTWORD_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE"/>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="https"/>
+        </intent>
+        <package android:name="com.google.android.apps.tv.launcherx"/>
+        <package android:name="com.google.android.tvlauncher"/>
+        <package android:name="com.google.android.tvrecommendations"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="com.bx.xc7914multi_com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS"/>
+    <permission android:name="com.bx.xc7914multi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.bx.xc7914multi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:banner="@mipmap/banner" android:configChanges="fontScale" android:fullBackupOnly="false" android:hardwareAccelerated="true" android:icon="@drawable/atv_icon" android:label="@string/app_name" android:largeHeap="true" android:name="com.bx.xc7914.util.OTRApp" android:networkSecurityConfig="@xml/network_security_config" android:required="false" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/Theme.AppCompat.NoActionBar" android:usesCleartextTraffic="true">
+        <provider android:authorities="com.bx.xc7914multi.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <activity android:exported="true" android:name="com.bx.xc7914.SplashActivity" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.bx.xc7914.PlayerSettingsActivity" android:screenOrientation="landscape"/>
+        <activity android:name="com.bx.xc7914.SearchActivity" android:screenOrientation="landscape"/>
+        <activity android:name="bx.BXActivity" android:screenOrientation="landscape"/>
+        <activity android:label="Device Status" android:name="com.bx.xc7914.SplashVideoActivity" android:screenOrientation="landscape"/>
+        <activity android:label="Categories List" android:name="com.bx.xc7914.ChannelListActivity" android:screenOrientation="landscape"/>
+        <activity android:label="Device Status" android:name="com.bx.xc7914.DeviceStatus" android:screenOrientation="landscape"/>
+        <activity android:label="Settings" android:name="com.bx.xc7914.CategoriesActivity" android:screenOrientation="landscape"/>
+        <activity android:label="Radio Player" android:name="com.bx.xc7914.RadioPlayerActivity" android:screenOrientation="landscape"/>
+        <activity android:label="Login" android:name="com.bx.xc7914.LoginActivity" android:screenOrientation="landscape"/>
+        <activity android:label="Movie Info" android:name="com.bx.xc7914.MovieInfoActivity" android:screenOrientation="landscape"/>
+        <activity android:label="Catch Up Deails" android:name="com.bx.xc7914.CatchupPlayerActivity" android:screenOrientation="landscape"/>
+        <activity android:label="Catch Up Deails" android:name="com.bx.xc7914.MaintenanceActivity" android:screenOrientation="landscape"/>
+        <activity android:label="Series" android:name="com.bx.xc7914.SeriesActivity" android:screenOrientation="landscape"/>
+        <activity android:label="Settings" android:name="com.bx.xc7914.SettingsMenuActivity" android:screenOrientation="landscape"/>
+        <activity android:label="Update" android:name="com.bx.xc7914.updatecontents.XCUpdateContents" android:screenOrientation="landscape"/>
+        <activity android:label="Update" android:name="com.bx.xc7914.fastogt.updatecontent.OTRUpdateContents" android:screenOrientation="landscape"/>
+        <activity android:label="Update" android:name="com.bx.xc7914.updatecontents.EZServerUpdateContents" android:screenOrientation="landscape"/>
+        <activity android:label="Update" android:name="com.bx.xc7914.updatecontents.M3UUpdateContents" android:screenOrientation="landscape"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:label="Player" android:launchMode="singleTask" android:name="com.bx.xc7914.PlayStreamEPGActivity" android:screenOrientation="landscape" android:supportsPictureInPicture="true"/>
+        <activity android:label="Player" android:name="com.bx.xc7914.speedtest.SpeedTestActivity" android:screenOrientation="landscape"/>
+        <activity android:label="EPG" android:name="com.bx.xc7914.epg.EPGActivityXMLTV" android:screenOrientation="landscape"/>
+        <activity android:label="Parental Control" android:name="com.bx.xc7914.ParentalControlActivity" android:screenOrientation="landscape"/>
+        <activity android:label="Catchup Activity" android:name="com.bx.xc7914.CatchupActivity" android:screenOrientation="landscape"/>
+        <activity android:label="Users History" android:name="com.bx.xc7914.UsersHistoryActivity" android:screenOrientation="landscape"/>
+        <activity android:label="Other Settings" android:name="com.bx.xc7914.OtherSettingsActivity" android:screenOrientation="landscape"/>
+        <activity android:label="LogView" android:name="com.bx.xc7914.LogViewActivity" android:screenOrientation="landscape"/>
+        <activity android:label="Multi Screen" android:name="com.bx.xc7914.MultiScreenActivityEXO" android:screenOrientation="landscape"/>
+        <activity android:label="Records View" android:name="com.bx.xc7914.RecordsActivity" android:screenOrientation="landscape"/>
+        <activity android:label="Records View" android:name="com.bx.xc7914.ChannelPickerActivity" android:screenOrientation="landscape"/>
+        <activity android:name="com.bx.xc7914.ProgramRemindersActivity" android:screenOrientation="landscape"/>
+        <activity android:name="com.bx.xc7914.BackupActivity" android:screenOrientation="landscape"/>
+        <activity android:name="com.bx.xc7914.ServiceStatusActivity" android:screenOrientation="landscape"/>
+        <activity android:name="com.bx.xc7914.LanguagePickerActivity" android:screenOrientation="landscape"/>
+        <activity android:name="com.bx.xc7914.OpenSourceLicenseActivity" android:screenOrientation="landscape"/>
+        <activity android:name="com.bx.xc7914.ORPlayerMainActivity" android:screenOrientation="landscape"/>
+        <service android:name="com.bx.xc7914.services.OTRServices" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.bx.xc7914.services.RecordingServices" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:label="OpenVpn View" android:name="com.bx.xc7914.OpenVPNActivity" android:screenOrientation="landscape"/>
+        <activity android:name="com.bx.xc7914.OpenVPNAddConfigActivity" android:screenOrientation="landscape"/>
+        <activity android:name="com.bx.xc7914.OpenVPNCountryListActivity" android:screenOrientation="landscape"/>
+        <activity android:autoRemoveFromRecents="true" android:excludeFromRecents="true" android:exported="true" android:label="@string/vpn_launch_title" android:name="de.blinkt.openvpn.LaunchVPN" android:taskAffinity=".LaunchVPN">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="true" android:foregroundServiceType="" android:name="de.blinkt.openvpn.core.OpenVPNService" android:permission="android.permission.BIND_VPN_SERVICE" android:process=":openvpn">
+            <intent-filter>
+                <action android:name="android.net.VpnService"/>
+            </intent-filter>
+            <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="vpn"/>
+        </service>
+        <service android:exported="true" android:name="de.blinkt.openvpn.api.ExternalOpenVPNService">
+            <intent-filter>
+                <action android:name="de.blinkt.openvpn.api.IOpenVPNAPIService"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="de.blinkt.openvpn.core.OpenVPNStatusService" android:process=":openvpn"/>
+        <meta-data android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME" android:value="com.google.android.exoplayer2.ext.cast.DefaultCastOptionsProvider"/>
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="@string/xc_app_id"/>
+        <property android:name="android.adservices.AD_SERVICES_CONFIG" android:resource="@xml/gma_ad_services_config"/>
+        <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <meta-data android:name="com.google.android.gms.ads.AD_MANAGER_APP" android:value="true"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:exported="false" android:name="com.google.android.tv.ads.controls.FallbackImageActivity" android:theme="@style/Theme.AppCompat.NoActionBar.Translucent"/>
+        <activity android:name="com.preference.ui.debug.DebugActivity"/>
+        <uses-library android:name="android.ext.adservices" android:required="false"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.ads.AdService"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:name="com.google.android.gms.ads.OutOfContextTestingActivity"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.google.android.gms.ads.NotificationHandlerActivity" android:taskAffinity="" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+    </application>
+</manifest>

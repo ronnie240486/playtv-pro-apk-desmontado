@@ -1,0 +1,36 @@
+package com.google.ads.interactivemedia.v3.internal;
+
+import android.content.Context;
+import java.util.concurrent.atomic.AtomicReference;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class zzlg extends zzmh {
+    private static final zzmi zzi = new zzmi();
+    private final Context zzj;
+
+    public zzlg(zzkt zzktVar, String str, String str2, zzaf zzafVar, int i7, int i8, Context context) {
+        super(zzktVar, "jH9XgSzl7KHhnRe7J3c+Zt4PeEKYSmdAWNcYgXyxs+5ioo7J6O+3ac27zdpp298L", "VkNyQ5JGx5xmkDjEjraYmsVaF+kJmAJRMUseQBBtHhA=", zzafVar, i7, 29);
+        this.zzj = context;
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzmh
+    public final void zza() {
+        this.zze.zzn("E");
+        AtomicReference atomicReferenceZza = zzi.zza(this.zzj.getPackageName());
+        if (atomicReferenceZza.get() == null) {
+            synchronized (atomicReferenceZza) {
+                try {
+                    if (atomicReferenceZza.get() == null) {
+                        atomicReferenceZza.set((String) this.zzf.invoke(null, this.zzj));
+                    }
+                } catch (Throwable th) {
+                    throw th;
+                }
+            }
+        }
+        String str = (String) atomicReferenceZza.get();
+        synchronized (this.zze) {
+            this.zze.zzn(zzia.zza(str.getBytes(), true));
+        }
+    }
+}

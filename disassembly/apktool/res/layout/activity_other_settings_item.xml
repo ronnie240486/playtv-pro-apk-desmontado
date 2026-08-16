@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="@color/orplayer_skyblue_font_color" android:layout_gravity="center|left" android:id="@id/txt_item" android:paddingLeft="15.0dip" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Item Name" android:fontFamily="@font/quicksand_light" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffa4c639" android:layout_gravity="center|right" android:id="@id/txt_status" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/xc_on" android:fontFamily="@font/quicksand_bold" />
+    </FrameLayout>
+</FrameLayout>

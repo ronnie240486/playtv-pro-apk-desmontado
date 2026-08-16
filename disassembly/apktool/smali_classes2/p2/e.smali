@@ -1,0 +1,32 @@
+.class public final Lp2/e;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public final a:Landroid/net/Uri;
+
+.field public final b:J
+
+.field public final c:I
+
+
+# direct methods
+.method public constructor <init>(IJLandroid/net/Uri;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    iput-object p4, p0, Lp2/e;->a:Landroid/net/Uri;
+
+    .line 6
+    iput-wide p2, p0, Lp2/e;->b:J
+
+    .line 8
+    iput p1, p0, Lp2/e;->c:I
+
+    .line 10
+    return-void
+.end method

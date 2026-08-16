@@ -1,0 +1,19 @@
+package com.google.ads.interactivemedia.v3.internal;
+
+import java.lang.reflect.Type;
+
+/* JADX INFO: loaded from: classes.dex */
+final class zzyc implements zzyz {
+    final /* synthetic */ zzwo zza;
+    final /* synthetic */ Type zzb;
+
+    public zzyc(zzyl zzylVar, zzwo zzwoVar, Type type) {
+        this.zza = zzwoVar;
+        this.zzb = type;
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzyz
+    public final Object zza() {
+        return this.zza.zza();
+    }
+}

@@ -1,0 +1,492 @@
+package com.google.ads.interactivemedia.v3.internal;
+
+import java.util.List;
+
+/* JADX INFO: loaded from: classes2.dex */
+final class zzaeb implements zzaib {
+    private final zzaea zza;
+
+    private zzaeb(zzaea zzaeaVar) {
+        byte[] bArr = zzafa.zzd;
+        this.zza = zzaeaVar;
+        zzaeaVar.zza = this;
+    }
+
+    public static zzaeb zza(zzaea zzaeaVar) {
+        zzaeb zzaebVar = zzaeaVar.zza;
+        return zzaebVar != null ? zzaebVar : new zzaeb(zzaeaVar);
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzA(int i7, int i8) {
+        this.zza.zzp(i7, (i8 >> 31) ^ (i8 + i8));
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzB(int i7, List list, boolean z6) {
+        int i8 = 0;
+        if (!z6) {
+            while (i8 < list.size()) {
+                zzaea zzaeaVar = this.zza;
+                int iIntValue = ((Integer) list.get(i8)).intValue();
+                zzaeaVar.zzp(i7, (iIntValue >> 31) ^ (iIntValue + iIntValue));
+                i8++;
+            }
+            return;
+        }
+        this.zza.zzo(i7, 2);
+        int iZzx = 0;
+        for (int i9 = 0; i9 < list.size(); i9++) {
+            int iIntValue2 = ((Integer) list.get(i9)).intValue();
+            iZzx += zzaea.zzx((iIntValue2 >> 31) ^ (iIntValue2 + iIntValue2));
+        }
+        this.zza.zzq(iZzx);
+        while (i8 < list.size()) {
+            zzaea zzaeaVar2 = this.zza;
+            int iIntValue3 = ((Integer) list.get(i8)).intValue();
+            zzaeaVar2.zzq((iIntValue3 >> 31) ^ (iIntValue3 + iIntValue3));
+            i8++;
+        }
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzC(int i7, long j7) {
+        this.zza.zzr(i7, (j7 >> 63) ^ (j7 + j7));
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzD(int i7, List list, boolean z6) {
+        int i8 = 0;
+        if (!z6) {
+            while (i8 < list.size()) {
+                zzaea zzaeaVar = this.zza;
+                long jLongValue = ((Long) list.get(i8)).longValue();
+                zzaeaVar.zzr(i7, (jLongValue >> 63) ^ (jLongValue + jLongValue));
+                i8++;
+            }
+            return;
+        }
+        this.zza.zzo(i7, 2);
+        int iZzy = 0;
+        for (int i9 = 0; i9 < list.size(); i9++) {
+            long jLongValue2 = ((Long) list.get(i9)).longValue();
+            iZzy += zzaea.zzy((jLongValue2 >> 63) ^ (jLongValue2 + jLongValue2));
+        }
+        this.zza.zzq(iZzy);
+        while (i8 < list.size()) {
+            zzaea zzaeaVar2 = this.zza;
+            long jLongValue3 = ((Long) list.get(i8)).longValue();
+            zzaeaVar2.zzs((jLongValue3 >> 63) ^ (jLongValue3 + jLongValue3));
+            i8++;
+        }
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    @Deprecated
+    public final void zzE(int i7) {
+        this.zza.zzo(i7, 3);
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzF(int i7, String str) {
+        this.zza.zzm(i7, str);
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzG(int i7, List list) {
+        int i8 = 0;
+        if (!(list instanceof zzafh)) {
+            while (i8 < list.size()) {
+                this.zza.zzm(i7, (String) list.get(i8));
+                i8++;
+            }
+            return;
+        }
+        zzafh zzafhVar = (zzafh) list;
+        while (i8 < list.size()) {
+            Object objZzf = zzafhVar.zzf(i8);
+            if (objZzf instanceof String) {
+                this.zza.zzm(i7, (String) objZzf);
+            } else {
+                this.zza.zze(i7, (zzadr) objZzf);
+            }
+            i8++;
+        }
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzH(int i7, int i8) {
+        this.zza.zzp(i7, i8);
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzI(int i7, List list, boolean z6) {
+        int i8 = 0;
+        if (!z6) {
+            while (i8 < list.size()) {
+                this.zza.zzp(i7, ((Integer) list.get(i8)).intValue());
+                i8++;
+            }
+            return;
+        }
+        this.zza.zzo(i7, 2);
+        int iZzx = 0;
+        for (int i9 = 0; i9 < list.size(); i9++) {
+            iZzx += zzaea.zzx(((Integer) list.get(i9)).intValue());
+        }
+        this.zza.zzq(iZzx);
+        while (i8 < list.size()) {
+            this.zza.zzq(((Integer) list.get(i8)).intValue());
+            i8++;
+        }
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzJ(int i7, long j7) {
+        this.zza.zzr(i7, j7);
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzK(int i7, List list, boolean z6) {
+        int i8 = 0;
+        if (!z6) {
+            while (i8 < list.size()) {
+                this.zza.zzr(i7, ((Long) list.get(i8)).longValue());
+                i8++;
+            }
+            return;
+        }
+        this.zza.zzo(i7, 2);
+        int iZzy = 0;
+        for (int i9 = 0; i9 < list.size(); i9++) {
+            iZzy += zzaea.zzy(((Long) list.get(i9)).longValue());
+        }
+        this.zza.zzq(iZzy);
+        while (i8 < list.size()) {
+            this.zza.zzs(((Long) list.get(i8)).longValue());
+            i8++;
+        }
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzb(int i7, boolean z6) {
+        this.zza.zzd(i7, z6);
+    }
+
+    /* JADX WARN: Type inference fix 'apply assigned field type' failed
+    java.lang.UnsupportedOperationException: ArgType.getObject(), call class: class jadx.core.dex.instructions.args.ArgType$UnknownArg
+    	at jadx.core.dex.instructions.args.ArgType.getObject(ArgType.java:596)
+    	at jadx.core.dex.attributes.nodes.ClassTypeVarsAttr.getTypeVarsMapFor(ClassTypeVarsAttr.java:35)
+    	at jadx.core.dex.nodes.utils.TypeUtils.replaceClassGenerics(TypeUtils.java:177)
+    	at jadx.core.dex.visitors.typeinference.FixTypesVisitor.insertExplicitUseCast(FixTypesVisitor.java:397)
+    	at jadx.core.dex.visitors.typeinference.FixTypesVisitor.tryFieldTypeWithNewCasts(FixTypesVisitor.java:359)
+    	at jadx.core.dex.visitors.typeinference.FixTypesVisitor.applyFieldType(FixTypesVisitor.java:309)
+    	at jadx.core.dex.visitors.typeinference.FixTypesVisitor.visit(FixTypesVisitor.java:94)
+     */
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzc(int i7, List list, boolean z6) {
+        int i8 = 0;
+        if (!z6) {
+            while (i8 < list.size()) {
+                this.zza.zzd(i7, ((Boolean) list.get(i8)).booleanValue());
+                i8++;
+            }
+            return;
+        }
+        this.zza.zzo(i7, 2);
+        int i9 = 0;
+        for (int i10 = 0; i10 < list.size(); i10++) {
+            ((Boolean) list.get(i10)).getClass();
+            i9++;
+        }
+        this.zza.zzq(i9);
+        while (i8 < list.size()) {
+            this.zza.zzb(((Boolean) list.get(i8)).booleanValue() ? (byte) 1 : (byte) 0);
+            i8++;
+        }
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzd(int i7, zzadr zzadrVar) {
+        this.zza.zze(i7, zzadrVar);
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zze(int i7, List list) {
+        for (int i8 = 0; i8 < list.size(); i8++) {
+            this.zza.zze(i7, (zzadr) list.get(i8));
+        }
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzf(int i7, double d7) {
+        this.zza.zzh(i7, Double.doubleToRawLongBits(d7));
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzg(int i7, List list, boolean z6) {
+        int i8 = 0;
+        if (!z6) {
+            while (i8 < list.size()) {
+                this.zza.zzh(i7, Double.doubleToRawLongBits(((Double) list.get(i8)).doubleValue()));
+                i8++;
+            }
+            return;
+        }
+        this.zza.zzo(i7, 2);
+        int i9 = 0;
+        for (int i10 = 0; i10 < list.size(); i10++) {
+            ((Double) list.get(i10)).getClass();
+            i9 += 8;
+        }
+        this.zza.zzq(i9);
+        while (i8 < list.size()) {
+            this.zza.zzi(Double.doubleToRawLongBits(((Double) list.get(i8)).doubleValue()));
+            i8++;
+        }
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    @Deprecated
+    public final void zzh(int i7) {
+        this.zza.zzo(i7, 4);
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzi(int i7, int i8) {
+        this.zza.zzj(i7, i8);
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzj(int i7, List list, boolean z6) {
+        int i8 = 0;
+        if (!z6) {
+            while (i8 < list.size()) {
+                this.zza.zzj(i7, ((Integer) list.get(i8)).intValue());
+                i8++;
+            }
+            return;
+        }
+        this.zza.zzo(i7, 2);
+        int iZzu = 0;
+        for (int i9 = 0; i9 < list.size(); i9++) {
+            iZzu += zzaea.zzu(((Integer) list.get(i9)).intValue());
+        }
+        this.zza.zzq(iZzu);
+        while (i8 < list.size()) {
+            this.zza.zzk(((Integer) list.get(i8)).intValue());
+            i8++;
+        }
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzk(int i7, int i8) {
+        this.zza.zzf(i7, i8);
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzl(int i7, List list, boolean z6) {
+        int i8 = 0;
+        if (!z6) {
+            while (i8 < list.size()) {
+                this.zza.zzf(i7, ((Integer) list.get(i8)).intValue());
+                i8++;
+            }
+            return;
+        }
+        this.zza.zzo(i7, 2);
+        int i9 = 0;
+        for (int i10 = 0; i10 < list.size(); i10++) {
+            ((Integer) list.get(i10)).getClass();
+            i9 += 4;
+        }
+        this.zza.zzq(i9);
+        while (i8 < list.size()) {
+            this.zza.zzg(((Integer) list.get(i8)).intValue());
+            i8++;
+        }
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzm(int i7, long j7) {
+        this.zza.zzh(i7, j7);
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzn(int i7, List list, boolean z6) {
+        int i8 = 0;
+        if (!z6) {
+            while (i8 < list.size()) {
+                this.zza.zzh(i7, ((Long) list.get(i8)).longValue());
+                i8++;
+            }
+            return;
+        }
+        this.zza.zzo(i7, 2);
+        int i9 = 0;
+        for (int i10 = 0; i10 < list.size(); i10++) {
+            ((Long) list.get(i10)).getClass();
+            i9 += 8;
+        }
+        this.zza.zzq(i9);
+        while (i8 < list.size()) {
+            this.zza.zzi(((Long) list.get(i8)).longValue());
+            i8++;
+        }
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzo(int i7, float f7) {
+        this.zza.zzf(i7, Float.floatToRawIntBits(f7));
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzp(int i7, List list, boolean z6) {
+        int i8 = 0;
+        if (!z6) {
+            while (i8 < list.size()) {
+                this.zza.zzf(i7, Float.floatToRawIntBits(((Float) list.get(i8)).floatValue()));
+                i8++;
+            }
+            return;
+        }
+        this.zza.zzo(i7, 2);
+        int i9 = 0;
+        for (int i10 = 0; i10 < list.size(); i10++) {
+            ((Float) list.get(i10)).getClass();
+            i9 += 4;
+        }
+        this.zza.zzq(i9);
+        while (i8 < list.size()) {
+            this.zza.zzg(Float.floatToRawIntBits(((Float) list.get(i8)).floatValue()));
+            i8++;
+        }
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzq(int i7, Object obj, zzags zzagsVar) {
+        zzaea zzaeaVar = this.zza;
+        zzaeaVar.zzo(i7, 3);
+        zzagsVar.zzj((zzafz) obj, zzaeaVar.zza);
+        zzaeaVar.zzo(i7, 4);
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzr(int i7, int i8) {
+        this.zza.zzj(i7, i8);
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzs(int i7, List list, boolean z6) {
+        int i8 = 0;
+        if (!z6) {
+            while (i8 < list.size()) {
+                this.zza.zzj(i7, ((Integer) list.get(i8)).intValue());
+                i8++;
+            }
+            return;
+        }
+        this.zza.zzo(i7, 2);
+        int iZzu = 0;
+        for (int i9 = 0; i9 < list.size(); i9++) {
+            iZzu += zzaea.zzu(((Integer) list.get(i9)).intValue());
+        }
+        this.zza.zzq(iZzu);
+        while (i8 < list.size()) {
+            this.zza.zzk(((Integer) list.get(i8)).intValue());
+            i8++;
+        }
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzt(int i7, long j7) {
+        this.zza.zzr(i7, j7);
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzu(int i7, List list, boolean z6) {
+        int i8 = 0;
+        if (!z6) {
+            while (i8 < list.size()) {
+                this.zza.zzr(i7, ((Long) list.get(i8)).longValue());
+                i8++;
+            }
+            return;
+        }
+        this.zza.zzo(i7, 2);
+        int iZzy = 0;
+        for (int i9 = 0; i9 < list.size(); i9++) {
+            iZzy += zzaea.zzy(((Long) list.get(i9)).longValue());
+        }
+        this.zza.zzq(iZzy);
+        while (i8 < list.size()) {
+            this.zza.zzs(((Long) list.get(i8)).longValue());
+            i8++;
+        }
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzv(int i7, Object obj, zzags zzagsVar) {
+        zzafz zzafzVar = (zzafz) obj;
+        zzadx zzadxVar = (zzadx) this.zza;
+        zzadxVar.zzq((i7 << 3) | 2);
+        zzadxVar.zzq(((zzadb) zzafzVar).zzat(zzagsVar));
+        zzagsVar.zzj(zzafzVar, zzadxVar.zza);
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzw(int i7, int i8) {
+        this.zza.zzf(i7, i8);
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzx(int i7, List list, boolean z6) {
+        int i8 = 0;
+        if (!z6) {
+            while (i8 < list.size()) {
+                this.zza.zzf(i7, ((Integer) list.get(i8)).intValue());
+                i8++;
+            }
+            return;
+        }
+        this.zza.zzo(i7, 2);
+        int i9 = 0;
+        for (int i10 = 0; i10 < list.size(); i10++) {
+            ((Integer) list.get(i10)).getClass();
+            i9 += 4;
+        }
+        this.zza.zzq(i9);
+        while (i8 < list.size()) {
+            this.zza.zzg(((Integer) list.get(i8)).intValue());
+            i8++;
+        }
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzy(int i7, long j7) {
+        this.zza.zzh(i7, j7);
+    }
+
+    @Override // com.google.ads.interactivemedia.v3.internal.zzaib
+    public final void zzz(int i7, List list, boolean z6) {
+        int i8 = 0;
+        if (!z6) {
+            while (i8 < list.size()) {
+                this.zza.zzh(i7, ((Long) list.get(i8)).longValue());
+                i8++;
+            }
+            return;
+        }
+        this.zza.zzo(i7, 2);
+        int i9 = 0;
+        for (int i10 = 0; i10 < list.size(); i10++) {
+            ((Long) list.get(i10)).getClass();
+            i9 += 8;
+        }
+        this.zza.zzq(i9);
+        while (i8 < list.size()) {
+            this.zza.zzi(((Long) list.get(i8)).longValue());
+            i8++;
+        }
+    }
+}

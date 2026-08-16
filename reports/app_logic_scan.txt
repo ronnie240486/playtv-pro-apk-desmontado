@@ -1,0 +1,502 @@
+# Varredura do pacote próprio
+
+## URLs e hosts
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/B2/d.smali:http://www.w3.org/ns/ttml#parameter
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/D1/I.smali:https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/F4/h.smali:http://schemas.android.com/apk/res/android
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/G2/F.smali:https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J1/E.smali:https://default.url
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J1/E.smali:https://x
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/D.smali:http://:
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/L1.smali:http://:
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/M0.smali:http://:
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/S0.smali:http://:
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/t0.smali:http://:
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/P0/o.smali:http://schemas.microsoft.com/DRM/2007/03/protocols/AcquireLicense
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/R1/a.smali:http://ns.adobe.com/xap/1.0/
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/S4/j.smali:https://www.speedtest.net/speedtest-config.php
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/S4/j.smali:https://www.speedtest.net/speedtest-servers-static.php
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/U2/g.smali:https://support.google.com/dfp_premium/answer/7160685#push
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/V/g.smali:http://ns.adobe.com/xap/1.0/\u0000
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/Z0/a.smali:https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/androidx/fragment/app/e.smali:https://google.com/search?
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/b2/a.smali:https://aomedia.org/emsg/ID3
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/b2/a.smali:https://developer.apple.com/streaming/emsg-id3
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/bumptech/glide/c.smali:https://developers.google.com/admob/android/test-ads#enable_test_devices
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/bx/xc7914/ORPlayerMainActivity.smali:https://api.ipify.org/?format=json
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/bx/xc7914/ytextractor/VideoMeta.smali:http://i.ytimg.com/vi/
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/bx/xc7914/ytextractor/YouTubeExtractor.smali:https://youtube.com
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/bx/xc7914/ytextractor/YouTubeExtractor.smali:https://youtube.com/watch?v=
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/ads/interactivemedia/pal/zzs.smali:https://pagead2.googlesyndication.com/pagead/gen_204
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/ads/interactivemedia/v3/internal/zzey.smali:https://imasdk.googleapis.com/native/sdkloader/native_sdk_v3.html
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/ads/interactivemedia/v3/internal/zzey.smali:https://imasdk.googleapis.com/native/sdkloader/native_sdk_v3_debug.html
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/ads/interactivemedia/v3/internal/zzgm.smali:http://www.dom.com/path?
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/ads/interactivemedia/v3/internal/zznr.smali:https://admob-gmats.uc.r.appspot.com/
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/ads/interactivemedia/v3/internal/zznr.smali:https://googleads.g.doubleclick.net
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/ads/interactivemedia/v3/internal/zznr.smali:https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/ads/interactivemedia/v3/internal/zznr.smali:https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_banner.js
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/ads/interactivemedia/v3/internal/zznr.smali:https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_expanded_banner.js
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/ads/interactivemedia/v3/internal/zznr.smali:https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_interstitial.js
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/ads/interactivemedia/v3/internal/zznr.smali:https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.html
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/ads/interactivemedia/v3/internal/zznr.smali:https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/ads/interactivemedia/v3/internal/zznr.smali:https://pagead2.googlesyndication.com/pagead/ping?e=2&f=1
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/ads/interactivemedia/v3/internal/zznr.smali:https://www.google.com/dfp/debugSignals
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/ads/interactivemedia/v3/internal/zznr.smali:https://www.google.com/dfp/inAppPreview
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/ads/interactivemedia/v3/internal/zznr.smali:https://www.google.com/dfp/linkDevice
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/ads/interactivemedia/v3/internal/zznr.smali:https://www.google.com/dfp/sendDebugData
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/Av.smali:http://www.example.com
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/Co.smali:https://developers.google.com/admob/android/test-ads#enable_test_devices
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/DE.smali:http://g.co/dev/packagevisibility.
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/F7.smali:http://www.example.com
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/R7.smali:https://csi.gstatic.com/csi
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/Td.smali:http://www.example.com
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/Td.smali:http://www.google.com
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/aK.smali:https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/f2.smali:http://www.w3.org/ns/ttml#parameter
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/i8.smali:https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40-loader.html
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/jJ.smali:https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/nl.smali:https://googlemobileadssdk.page.link/admob-interstitial-policies
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/oh.smali:https://googlemobileadssdk.page.link/admob-interstitial-policies
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/sn.smali:https://googlemobileadssdk.page.link/admob-interstitial-policies
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/v7.smali:https://admob-gmats.uc.r.appspot.com/
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/v7.smali:https://googleads.g.doubleclick.net
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/v7.smali:https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/v7.smali:https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_banner.js
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/v7.smali:https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_expanded_banner.js
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/v7.smali:https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_interstitial.js
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/v7.smali:https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.html
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/v7.smali:https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/v7.smali:https://pagead2.googlesyndication.com/pagead/ping?e=2&f=1
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/v7.smali:https://www.google.com/dfp/debugSignals
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/v7.smali:https://www.google.com/dfp/inAppPreview
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/v7.smali:https://www.google.com/dfp/linkDevice
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/v7.smali:https://www.google.com/dfp/sendDebugData
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/ads/w0.smali:http://ns.adobe.com/xap/1.0/
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/measurement/Z2.smali:https://app-measurement.com/a
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/measurement/i0.smali:https://www.google.com
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/pal/a1.smali:https://imasdk.googleapis.com/pal/key/public.json
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/pal/o2.smali:https://admob-gmats.uc.r.appspot.com/
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/pal/o2.smali:https://googleads.g.doubleclick.net
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/pal/o2.smali:https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/pal/o2.smali:https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_banner.js
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/pal/o2.smali:https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_expanded_banner.js
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/pal/o2.smali:https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_interstitial.js
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/pal/o2.smali:https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.html
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/pal/o2.smali:https://imasdk.googleapis.com/admob/sdkloader/native_video.html
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/pal/o2.smali:https://pagead2.googlesyndication.com/pagead/ping?e=2&f=1
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/pal/o2.smali:https://www.google.com/dfp/debugSignals
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/pal/o2.smali:https://www.google.com/dfp/inAppPreview
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/pal/o2.smali:https://www.google.com/dfp/linkDevice
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/com/google/android/gms/internal/pal/o2.smali:https://www.google.com/dfp/sendDebugData
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/d/b.smali:http://:
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/j/f1.smali:http://:
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/m2/c.smali:http://dashif.org/guidelines/trickmode
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/n2/e.smali:http://dashif.org/guidelines/last-segment-number
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/n2/e.smali:http://dashif.org/guidelines/thumbnail_tile
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/n2/e.smali:http://dashif.org/guidelines/trickmode
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/n2/e.smali:http://dashif.org/thumbnail_tile
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali_classes2/K4/k0.smali:http://:
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali_classes2/com/google/android/gms/internal/ads/Fc.smali:http://www.google.com
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali_classes2/com/google/android/gms/internal/ads/JB.smali:https://github.com/tink-crypto/tink-java
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali_classes2/com/google/android/material/chip/Chip.smali:http://schemas.android.com/apk/res-auto
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali_classes2/com/google/android/material/chip/Chip.smali:http://schemas.android.com/apk/res/android
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali_classes2/u3/B1.smali:https://www.googleadservices.com/pagead/conversion/app/deeplink?id_type=adid&sdk_version=
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali_classes2/u3/M0.smali:https://app-measurement.com/a
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali_classes2/u3/P0.smali:https://firebase.google.com/support/guides/disable-analytics
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali_classes2/u3/n2.smali:https://goo.gl/NAOOOI
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali_classes2/u3/n2.smali:https://goo.gl/NAOOOI.
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ORPlayerMainActivity.java:https://api.ipify.org/?format=json
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ytextractor/VideoMeta.java:http://i.ytimg.com/vi/
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ytextractor/YouTubeExtractor.java:https://youtube.com
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ytextractor/YouTubeExtractor.java:https://youtube.com/watch?v=
+
+## Palavras-chave de configuração e autenticação
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/util/e.java:8:        return new NotificationChannel("openvpn_userreq", str, 4);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/util/Methods.java:246:        for (ActivityManager.RunningServiceInfo runningServiceInfo : ((ActivityManager) context.getSystemService("activity")).getRunningServices(com.google.android.gms.common.api.d.API_PRIORITY_OTHER)) {
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/util/Methods.java:449:            messageDigest.update(bArr);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/util/g.java:7:import com.bx.xc7914.updatecontents.XCUpdateContents;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/DeviceStatus.java:45:    private static native String papi();
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/PlayerSettingsActivity.java:231:        this.f12145l0 = (Button) findViewById(R.id.btn_update_exo);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/PlayerSettingsActivity.java:232:        this.f12146m0 = (Button) findViewById(R.id.btn_update_vlc);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/LoginActivity.java:238:    public final native void f(LoginActivity loginActivity, String str);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/OpenVPNAddConfigActivity.java:124:        setContentView(R.layout.activity_openvpn_add_config);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/OpenVPNAddConfigActivity.java:136:        this.f11912K = (EditText) findViewById(R.id.ed_username);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/OpenVPNAddConfigActivity.java:137:        this.f11913L = (EditText) findViewById(R.id.ed_password);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/OpenVPNAddConfigActivity.java:140:        this.f11919R = (FrameLayout) findViewById(R.id.layout_password);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/OpenVPNAddConfigActivity.java:141:        this.f11918Q = (FrameLayout) findViewById(R.id.layout_username);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/SplashActivity.java:187:    private static native String papione();
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/SplashActivity.java:189:    private static native String papitwo();
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/SettingsMenuActivity.java:109:    private static String papi() {
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/SettingsMenuActivity.java:128:            this.f12289H = new String[]{"Player Settings", getString(R.string.player), getString(R.string.stream_type), settingsMenuActivity.getString(R.string.xc_update_contents), settingsMenuActivity.getString(R.string.xc_parental), settingsMenuActivity.getString(R.string.xc_speed_test), getString(R.string.backup_restore), getString(R.string.remote_control), "Language", settingsMenuActivity.getString(R.string.xc_support), settingsMenuActivity.getString(R.string.xc_other_settings), getString(R.string.clear_cache), settingsMenuActivity.getString(R.string.xc_signout)};
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/SettingsMenuActivity.java:129:            this.f12290I = new int[]{R.drawable.settings_zoom, R.drawable.settings_player, R.drawable.settings_streamtype, R.drawable.settings_update, R.drawable.settings_parental, R.drawable.settings_speedtest, R.drawable.settings_backup, R.drawable.settings_remote, R.drawable.settings_language, R.drawable.settings_support, R.drawable.settings_other, R.drawable.settings_clear_cache, R.drawable.settings_exit};
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/SettingsMenuActivity.java:131:            this.f12289H = new String[]{settingsMenuActivity.getString(R.string.xc_account), "Player Settings", getString(R.string.player), getString(R.string.stream_type), settingsMenuActivity.getString(R.string.xc_update_contents), settingsMenuActivity.getString(R.string.xc_parental), settingsMenuActivity.getString(R.string.xc_speed_test), getString(R.string.backup_restore), getString(R.string.remote_control), "Language", settingsMenuActivity.getString(R.string.xc_support), settingsMenuActivity.getString(R.string.xc_other_settings), getString(R.string.clear_cache), settingsMenuActivity.getString(R.string.xc_signout)};
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/SettingsMenuActivity.java:132:            this.f12290I = new int[]{R.drawable.settings_account, R.drawable.settings_zoom, R.drawable.settings_player, R.drawable.settings_streamtype, R.drawable.settings_update, R.drawable.settings_parental, R.drawable.settings_speedtest, R.drawable.settings_backup, R.drawable.settings_remote, R.drawable.settings_language, R.drawable.settings_support, R.drawable.settings_other, R.drawable.settings_clear_cache, R.drawable.settings_exit};
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/SettingsMenuActivity.java:134:            this.f12289H = new String[]{"APP", "Player Settings", getString(R.string.player), getString(R.string.stream_type), settingsMenuActivity.getString(R.string.xc_update_contents), settingsMenuActivity.getString(R.string.xc_parental), settingsMenuActivity.getString(R.string.xc_speed_test), getString(R.string.backup_restore), getString(R.string.remote_control), "Language", settingsMenuActivity.getString(R.string.xc_support), settingsMenuActivity.getString(R.string.xc_other_settings), getString(R.string.clear_cache), settingsMenuActivity.getString(R.string.xc_signout)};
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/SettingsMenuActivity.java:135:            this.f12290I = new int[]{R.drawable.logo, R.drawable.settings_zoom, R.drawable.settings_player, R.drawable.settings_streamtype, R.drawable.settings_update, R.drawable.settings_parental, R.drawable.settings_speedtest, R.drawable.settings_backup, R.drawable.settings_remote, R.drawable.settings_language, R.drawable.settings_support, R.drawable.settings_other, R.drawable.settings_clear_cache, R.drawable.settings_exit};
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/SettingsMenuActivity.java:137:            this.f12289H = new String[]{"APP", settingsMenuActivity.getString(R.string.xc_account), "Player Settings", getString(R.string.player), getString(R.string.stream_type), settingsMenuActivity.getString(R.string.xc_update_contents), settingsMenuActivity.getString(R.string.xc_parental), settingsMenuActivity.getString(R.string.xc_speed_test), getString(R.string.backup_restore), getString(R.string.remote_control), "Language", settingsMenuActivity.getString(R.string.xc_support), settingsMenuActivity.getString(R.string.xc_other_settings), getString(R.string.clear_cache), settingsMenuActivity.getString(R.string.xc_signout)};
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/SettingsMenuActivity.java:138:            this.f12290I = new int[]{R.drawable.logo, R.drawable.settings_account, R.drawable.settings_zoom, R.drawable.settings_player, R.drawable.settings_streamtype, R.drawable.settings_update, R.drawable.settings_parental, R.drawable.settings_speedtest, R.drawable.settings_backup, R.drawable.settings_remote, R.drawable.settings_language, R.drawable.settings_support, R.drawable.settings_other, R.drawable.settings_clear_cache, R.drawable.settings_exit};
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/SettingsMenuActivity.java:140:        if (m.x("ORT_WHICH_PANEL", "xtreamcodes", "m3u") || m.x("ORT_WHICH_PANEL", "xtreamcodes", "ezserver")) {
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/SettingsMenuActivity.java:141:            this.f12289H = new String[]{"APP", "Player Settings", settingsMenuActivity.getString(R.string.xc_update_contents), getString(R.string.player), settingsMenuActivity.getString(R.string.xc_parental), settingsMenuActivity.getString(R.string.xc_speed_test), getString(R.string.backup_restore), getString(R.string.remote_control), "Language", settingsMenuActivity.getString(R.string.xc_support), settingsMenuActivity.getString(R.string.xc_other_settings), getString(R.string.clear_cache), settingsMenuActivity.getString(R.string.xc_signout)};
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/SettingsMenuActivity.java:142:            this.f12290I = new int[]{R.drawable.logo, R.drawable.settings_zoom, R.drawable.settings_update, R.drawable.settings_player, R.drawable.settings_parental, R.drawable.settings_speedtest, R.drawable.settings_backup, R.drawable.settings_remote, R.drawable.settings_language, R.drawable.settings_support, R.drawable.settings_other, R.drawable.settings_clear_cache, R.drawable.settings_exit};
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/SettingsMenuActivity.java:287:        getBaseContext().getResources().updateConfiguration(configuration, getBaseContext().getResources().getDisplayMetrics());
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/MovieInfoActivity.java:238:            if (jSONObject2.has("access_token")) {
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/MovieInfoActivity.java:239:                String string = jSONObject2.getString("refresh_token");
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/MovieInfoActivity.java:240:                String string2 = jSONObject2.getString("access_token");
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/MovieInfoActivity.java:242:                editorEdit.putString("otr_refresh_token", Encrypt.b(string));
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/MovieInfoActivity.java:243:                editorEdit.putString("otr_access_token", Encrypt.b(string2));
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/MovieInfoActivity.java:264:                Log.d("XCIPTV_TAG", "MovieInfoActivity -- loginCheckOTR");
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/MovieInfoActivity.java:284:        getBaseContext().getResources().updateConfiguration(configuration, displayMetrics);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/MovieInfoActivity.java:335:        } else if (m.x("ORT_WHICH_PANEL", "xtreamcodes", "ezserver")) {
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/updatecontents/XCUpdateContents.java:1:package com.bx.xc7914.updatecontents;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/updatecontents/XCUpdateContents.java:177:        setContentView(R.layout.activity_update_contents);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/updatecontents/XCUpdateContents.java:239:            sb.append("/player_api.php?username=");
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/updatecontents/XCUpdateContents.java:241:            sb.append("&password=");
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/updatecontents/XCUpdateContents.java:243:            String str = string + "/player_api.php?username=" + strA + "&password=" + strA2 + "&action=get_vod_categories";
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/updatecontents/XCUpdateContents.java:244:            String str2 = string2 + "/player_api.php?username=" + strA + "&password=" + strA2 + "&action=get_series_categories";
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/updatecontents/XCUpdateContents.java:247:            sb2.append("/player_api.php?username=");
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/updatecontents/XCUpdateContents.java:249:            sb2.append("&password=");
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/updatecontents/XCUpdateContents.java:251:            String str3 = string + "/player_api.php?username=" + strA + "&password=" + strA2 + "&action=get_vod_streams";
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/updatecontents/XCUpdateContents.java:252:            String str4 = string2 + "/player_api.php?username=" + strA + "&password=" + strA2 + "&action=get_series";
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/updatecontents/M3UUpdateContents.java:1:package com.bx.xc7914.updatecontents;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/updatecontents/M3UUpdateContents.java:109:        setContentView(R.layout.activity_update_m3u_contents);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/updatecontents/EZServerUpdateContents.java:1:package com.bx.xc7914.updatecontents;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/updatecontents/EZServerUpdateContents.java:156:        setContentView(R.layout.activity_update_ezs_contents);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ORPlayerMainActivity.java:48:import com.bx.xc7914.updatecontents.EZServerUpdateContents;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ORPlayerMainActivity.java:49:import com.bx.xc7914.updatecontents.M3UUpdateContents;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ORPlayerMainActivity.java:50:import com.bx.xc7914.updatecontents.XCUpdateContents;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ORPlayerMainActivity.java:225:                Log.d("XCIPTV_TAG", "SplashActivity -- loginCheckXC");
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ORPlayerMainActivity.java:242:                Log.d("XCIPTV_TAG", "SplashActivity -- loginCheckXC");
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ORPlayerMainActivity.java:281:        Log.v("XCIPTV_TAG", "ORPlayerHomeActivity - TV VOD Sereis - Content updated less than 6 hrs ago." + String.valueOf(iL));
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ORPlayerMainActivity.java:696:                new C2797w(this, this, "getIPAddress", "https://api.ipify.org/?format=json");
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ORPlayerMainActivity.java:789:        getBaseContext().getResources().updateConfiguration(configuration, getBaseContext().getResources().getDisplayMetrics());
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ORPlayerMainActivity.java:868:        } else if (m.x("ORT_WHICH_PANEL", "xtreamcodes", "ezserver")) {
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/LanguagePickerActivity.java:37:        getBaseContext().getResources().updateConfiguration(configuration, getBaseContext().getResources().getDisplayMetrics());
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/OtherSettingsActivity.java:68:        getBaseContext().getResources().updateConfiguration(configuration, getBaseContext().getResources().getDisplayMetrics());
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/UsersHistoryActivity.java:126:        f12355U = (EditText) viewInflate.findViewById(R.id.ed_username);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/UsersHistoryActivity.java:127:        f12356V = (EditText) viewInflate.findViewById(R.id.ed_password);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/UsersHistoryActivity.java:128:        f12357W = (EditText) viewInflate.findViewById(R.id.ed_server);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/UsersHistoryActivity.java:129:        TextView textView = (TextView) viewInflate.findViewById(R.id.txt_username_umd);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/UsersHistoryActivity.java:130:        TextView textView2 = (TextView) viewInflate.findViewById(R.id.txt_password_umd);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/UsersHistoryActivity.java:131:        TextView textView3 = (TextView) viewInflate.findViewById(R.id.txt_server_umd);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/UsersHistoryActivity.java:167:        Button button3 = (Button) viewInflate.findViewById(R.id.btn_login);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/UsersHistoryActivity.java:169:            button.setText(R.string.update_login);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/UsersHistoryActivity.java:192:            map.put("username", ((i) this.f12364G.get(i7)).f5204c);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/UsersHistoryActivity.java:193:            map.put("password", ((i) this.f12364G.get(i7)).f5205d);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/UsersHistoryActivity.java:194:            map.put("server", ((i) this.f12364G.get(i7)).f5206e);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/UsersHistoryActivity.java:227:        this.f12368K = (Button) findViewById(R.id.btn_ezserver);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/UsersHistoryActivity.java:239:            if (this.f12377z.getString("hide_other_login_type", null).equals("no")) {
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/UsersHistoryActivity.java:247:        } else if (m.x("ORT_WHICH_PANEL", "xtreamcodes", "ezserver")) {
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/UsersHistoryActivity.java:251:            if (this.f12377z.getString("hide_other_login_type", null).equals("no")) {
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/UsersHistoryActivity.java:260:            if (this.f12377z.getString("hide_other_login_type", null).equals("no")) {
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/OpenVPNCountryListActivity.java:31:        setContentView(R.layout.activity_openvpn_country_list);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ChannelListActivity.java:315:        getBaseContext().getResources().updateConfiguration(configuration, displayMetrics);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ServiceStatusActivity.java:119:        this.f12268K = (TextView) findViewById(R.id.txt_bg_update);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ServiceStatusActivity.java:122:        this.f12271N = (TextView) findViewById(R.id.txt_username);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ServiceStatusActivity.java:170:        if (m.x("bg_epg_update", "yes", "yes")) {
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ServiceStatusActivity.java:218:        } else if (m.x("ORT_WHICH_PANEL", "xtreamcodes", "ezserver")) {
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ServiceStatusActivity.java:226:        if (this.f12279z.contains("login_type") && this.f12279z.getString("login_type", null).equals("activationXOR")) {
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/PlayStreamEPGActivity.java:1236:        } else if (m.x("ORT_WHICH_PANEL", "xtreamcodes", "ezserver")) {
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/PlayStreamEPGActivity.java:1280:        } else if (m.x("ORT_WHICH_PANEL", "xtreamcodes", "ezserver")) {
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/PlayStreamEPGActivity.java:2078:        getBaseContext().getResources().updateConfiguration(configuration, displayMetrics);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/PlayStreamEPGActivity.java:8938:            new C2797w(this, this, "getEPGEZS", (Encrypt.a(this.f12052i0.f5206e) + "/server/get_epg_info?token=" + Encrypt.a(this.f12103z.getString("token", null)) + "&ch_name=" + this.f11957C + "&from_year=" + String.valueOf(Calendar.getInstance().get(1)) + "&from_month=" + Methods.N() + "&to_month=" + Methods.N()).replaceAll(" ", "%20").replaceAll("[\\r\\n]+", HttpUrl.FRAGMENT_ENCODE_SET));
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/PlayStreamEPGActivity.java:8960:        if (q0.p().c("bg_epg_update", "yes").equals("yes")) {
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ParentalControlActivity.java:144:        this.f11934C = (Button) findViewById(R.id.btn_reset_password);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:162:    public static void a(BackupActivity backupActivity, String str) {
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:163:        BackupActivity backupActivity2 = backupActivity.f11361y;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:164:        View viewInflate = LayoutInflater.from(backupActivity2).inflate(R.layout.xcip_dialog_single_btn, (ViewGroup) null);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:165:        AlertDialog alertDialogCreate = new AlertDialog.Builder(backupActivity2).create();
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:176:        BackupActivity backupActivity = this.f11361y;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:177:        View viewInflate = LayoutInflater.from(backupActivity).inflate(R.layout.xciptv_dialog_cloudbackup_password, (ViewGroup) null);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:178:        AlertDialog alertDialogCreate = new AlertDialog.Builder(backupActivity).create();
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:181:        f11323l0 = (EditText) AbstractC1109dg.j(window, new ColorDrawable(Color.parseColor("#99000000")), alertDialogCreate, viewInflate, R.id.ed_password);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:196:        setContentView(R.layout.activity_backup);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:198:        BackupActivity backupActivity = this.f11361y;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:200:        SharedPreferences sharedPreferences = backupActivity.getSharedPreferences(str, 0);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:202:        this.f11353d0 = sharedPreferences.getString("backupurl", null);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:203:        this.f11324A = new b(backupActivity, 0);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:204:        this.f11325B = new c(backupActivity, 0);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:206:        this.f11326C = new a(backupActivity, 1);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:207:        this.f11327D = new c(backupActivity, 1);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:208:        this.f11328E = new d(backupActivity);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:210:        this.f11329F = new a(backupActivity, 2);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:215:        this.f11341R = (Button) findViewById(R.id.btn_backup);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:218:        if (Methods.U(backupActivity)) {
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:238:                BackupActivity backupActivity2 = this.f3860z;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:241:                        backupActivity2.f11358i0 = true;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:242:                        backupActivity2.b(backupActivity2.getString(R.string.your_backup_will_be_encrypted), backupActivity2.getString(R.string.you_can_not_reset_backup_password) + backupActivity2.f11351b0);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:245:                        backupActivity2.f11358i0 = false;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:246:                        backupActivity2.b(backupActivity2.getString(R.string.enter_backup_password), backupActivity2.getString(R.string.you_can_not_reset_backup_password) + backupActivity2.f11351b0);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:249:                        AsyncTaskC0191e asyncTaskC0191e = backupActivity2.f11344U;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:253:                        backupActivity2.finish();
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:270:                BackupActivity backupActivity2 = this.f3860z;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:273:                        backupActivity2.f11358i0 = true;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:274:                        backupActivity2.b(backupActivity2.getString(R.string.your_backup_will_be_encrypted), backupActivity2.getString(R.string.you_can_not_reset_backup_password) + backupActivity2.f11351b0);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:277:                        backupActivity2.f11358i0 = false;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:278:                        backupActivity2.b(backupActivity2.getString(R.string.enter_backup_password), backupActivity2.getString(R.string.you_can_not_reset_backup_password) + backupActivity2.f11351b0);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:281:                        AsyncTaskC0191e asyncTaskC0191e = backupActivity2.f11344U;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:285:                        backupActivity2.finish();
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:302:                BackupActivity backupActivity2 = this.f3860z;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:305:                        backupActivity2.f11358i0 = true;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:306:                        backupActivity2.b(backupActivity2.getString(R.string.your_backup_will_be_encrypted), backupActivity2.getString(R.string.you_can_not_reset_backup_password) + backupActivity2.f11351b0);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:309:                        backupActivity2.f11358i0 = false;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:310:                        backupActivity2.b(backupActivity2.getString(R.string.enter_backup_password), backupActivity2.getString(R.string.you_can_not_reset_backup_password) + backupActivity2.f11351b0);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:313:                        AsyncTaskC0191e asyncTaskC0191e = backupActivity2.f11344U;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java:317:                        backupActivity2.finish();
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/fastogt/updatecontent/OTRUpdateContents.java:1:package com.bx.xc7914.fastogt.updatecontent;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/fastogt/updatecontent/OTRUpdateContents.java:107:        Log.d("XCIPTV_TAG", "OTRUpdateContents EPG update has been started in the backgroud");
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/fastogt/updatecontent/OTRUpdateContents.java:609:            new U5(0, this, this, "clientContent", Encrypt.a(this.f12451E.f5206e) + "/panel_pro/api/client/content", new JSONObject(new HashMap()), Encrypt.a(this.f12451E.f5204c), Encrypt.a(this.f12451E.f5205d));
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/fastogt/updatecontent/OTRUpdateContents.java:633:            if (jSONObject2.has("access_token")) {
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/fastogt/updatecontent/OTRUpdateContents.java:634:                String string = jSONObject2.getString("refresh_token");
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/fastogt/updatecontent/OTRUpdateContents.java:635:                String string2 = jSONObject2.getString("access_token");
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/fastogt/updatecontent/OTRUpdateContents.java:636:                this.f12457z.putString("otr_refresh_token", Encrypt.b(string));
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/fastogt/updatecontent/OTRUpdateContents.java:637:                this.f12457z.putString("otr_access_token", Encrypt.b(string2));
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/fastogt/updatecontent/OTRUpdateContents.java:662:        setContentView(R.layout.activity_update_contents);
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/A/l.smali:95:    invoke-virtual {v0, p0, v2, v1}, Ljava/security/MessageDigest;->update([BII)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/A/l.smali:415:    const-string v7, "de.blinkt.openvpn.api.AppRestrictions"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/C0/f.smali:739:    const-string v0, "Must set a non-null database name to a configuration that uses the no backup directory."
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/C0/h.smali:76:    const-string v0, "ALTER TABLE workspec ADD COLUMN `trigger_content_update_delay` INTEGER NOT NULL DEFAULT -1"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/C0/k.smali:96:    const-string v7, "Migrating WorkDatabase to the no-backup directory"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/C0/m.smali:815:    const-string v1, "Failed to update the ad types for rendering. "
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/D/n.smali:1170:    check-cast v2, Lcom/google/ads/interactivemedia/v3/api/player/AdMediaInfo;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/D/n.smali:1195:    check-cast v3, Lcom/google/ads/interactivemedia/v3/api/player/VideoAdPlayer$VideoAdPlayerCallback;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/D/n.smali:1198:    invoke-interface {v3, v2}, Lcom/google/ads/interactivemedia/v3/api/player/VideoAdPlayer$VideoAdPlayerCallback;->onLoaded(Lcom/google/ads/interactivemedia/v3/api/player/AdMediaInfo;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/F1/b0.smali:2819:    invoke-virtual {v2, v1}, Landroid/content/ContentResolver;->unregisterContentObserver(Landroid/database/ContentObserver;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/F1/l.smali:2:.super Landroid/database/ContentObserver;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/F1/l.smali:22:    invoke-direct {p0, p2}, Landroid/database/ContentObserver;-><init>(Landroid/os/Handler;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/F2/p.smali:486:    invoke-virtual/range {p2 .. p7}, Landroid/widget/PopupWindow;->update(Landroid/view/View;IIII)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/F2/q.smali:53:    check-cast v2, Lcom/bx/xc7914/updatecontents/XCUpdateContents;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/F2/q.smali:56:    sget-object p1, Lcom/bx/xc7914/updatecontents/XCUpdateContents;->T:Ljava/lang/Thread;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/F2/q.smali:66:    check-cast v2, Lcom/bx/xc7914/fastogt/updatecontent/OTRUpdateContents;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/F2/q.smali:69:    sget p1, Lcom/bx/xc7914/fastogt/updatecontent/OTRUpdateContents;->J:I
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/F2/y.smali:2328:    invoke-virtual {v3}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/F2/y.smali:2343:    invoke-virtual {v1, v3}, Landroid/view/ViewTreeObserver;->addOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/I2/A.smali:455:    const-string v0, "unknown Hmac algorithm: "
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/I2/A.smali:725:    invoke-virtual {v0, p2}, Ljavax/crypto/Mac;->update([B)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/I2/A.smali:1263:    const-string v0, "Digest username=\"%s\", realm=\"%s\", nonce=\"%s\", uri=\"%s\", response=\"%s\""
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/I2/A.smali:1322:    const-string v2, "Digest username=\"%s\", realm=\"%s\", nonce=\"%s\", uri=\"%s\", response=\"%s\", opaque=\"%s\""
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/I2/E.smali:590:    const-string p1, "SNTP: Unsynchronized server"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/I2/M.smali:250:    const-string v27, "mac"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J/a.smali:1261:    const-string v4, "app_settings_last_update_ms"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J/a.smali:1736:    check-cast v1, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J/a.smali:1765:    invoke-virtual {v1, v0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->c(Landroid/os/Bundle;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J/a.smali:1787:    check-cast v0, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J/a.smali:1790:    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->f()V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J/a.smali:1812:    check-cast v0, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J/a.smali:1815:    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->d()V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J/a.smali:1837:    check-cast v0, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J/a.smali:1840:    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->g()V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J/a.smali:1862:    check-cast v0, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J/a.smali:1891:    check-cast v1, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J/a.smali:1920:    invoke-virtual {v1, v0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->c(Landroid/os/Bundle;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J/a.smali:1942:    check-cast v0, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J/a.smali:1945:    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->f()V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J/a.smali:1967:    check-cast v0, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J/a.smali:1970:    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->d()V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J/a.smali:1992:    check-cast v0, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J/a.smali:1995:    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->g()V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J/a.smali:2017:    check-cast v0, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/J2/j.smali:374:    const-string v12, "machuca"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K0/b.smali:48:    const-string v0, "INSERT OR IGNORE INTO `WorkSpec` (`id`,`state`,`worker_class_name`,`input_merger_class_name`,`input`,`output`,`initial_delay`,`interval_duration`,`flex_duration`,`run_attempt_count`,`backoff_policy`,`backoff_delay_duration`,`period_start_time`,`minimum_retention_duration`,`schedule_requested_at`,`run_in_foreground`,`out_of_quota_policy`,`required_network_type`,`requires_charging`,`requires_device_idle`,`requires_battery_not_low`,`requires_storage_not_low`,`trigger_content_update_delay`,`trigger_max_content_delay`,`content_uri_triggers`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K2/i.smali:1125:    invoke-virtual {v0}, Landroid/graphics/SurfaceTexture;->updateTexImage()V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/C1.smali:206:    const-string v6, "username"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/C1.smali:212:    const-string v4, "password"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/C1.smali:230:    invoke-virtual {p1, v3, v5, v4, v1}, Landroid/database/sqlite/SQLiteDatabase;->update(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/D0.smali:6:.implements Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/D0.smali:61:    invoke-virtual {v0}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/D0.smali:67:    invoke-virtual {v0, p0}, Landroid/view/ViewTreeObserver;->removeOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/D0.smali:95:    invoke-virtual {v0}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/D0.smali:101:    invoke-virtual {v0, p0}, Landroid/view/ViewTreeObserver;->removeOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/D.smali:284:    const-string v9, "bg_epg_update"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/D.smali:1200:    const-string p2, "bg_epg_update"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/D.smali:3564:    const-string v2, "bg_epg_update"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/E0.smali:1129:    invoke-virtual {v3}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/E0.smali:1144:    invoke-virtual {v0, v3}, Landroid/view/ViewTreeObserver;->addOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/K.smali:367:    const-string v1, "login_type"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/K.smali:422:    const-string v2, "mac"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/L1.smali:881:    const-string v2, "username"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/M.smali:121:    const-string p1, "ezserver"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/N0.smali:1872:    invoke-virtual {p1}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/N0.smali:1887:    invoke-virtual {p1, p2}, Landroid/view/ViewTreeObserver;->addOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/N0.smali:2543:    const-string v6, "ezserver"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/N1.smali:116:    const-string v9, "token"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/N1.smali:185:    const-string v4, "/server/get_series_profile?token="
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/N1.smali:407:    const-string v0, "/server/get_series_episode?token="
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/N1.smali:935:    const-string v9, "/player_api.php?username="
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/N1.smali:944:    const-string v9, "&password="
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/N.smali:60:    const-string p2, "finish_alert_login"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/O.smali:397:    const-string v14, "mac"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/O.smali:2763:    const-string v7, "/token/createtoken?userid="
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/O.smali:2766:    const-string v8, "&password="
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/O.smali:2820:    const-string p1, "token="
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/O.smali:3024:    const-string v2, "token"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/O.smali:3051:    const-string v2, "ezserver"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/O.smali:3085:    const-string v2, "login_type"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/O.smali:3164:    const-string v2, "login"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/O.smali:3187:    const-string v2, "mac"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/S0.smali:827:    const-string v4, "ezserver"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/V0.smali:344:    const-string v8, "UPDATE locations SET vpn_config=?, username_updated=?, password_updated=?, app_profile=? WHERE lid=?"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/Y1.smali:121:    const-string v6, "/token/createtoken?userid="
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/Y1.smali:124:    const-string v7, "&password="
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/Y1.smali:164:    const-string v0, "token="
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/Y1.smali:543:    const-string v2, "token"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/a0.smali:175:    const-class v2, Lcom/bx/xc7914/updatecontents/XCUpdateContents;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/a0.smali:194:    const-string v0, "ezserver"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/a0.smali:215:    const-class v2, Lcom/bx/xc7914/updatecontents/EZServerUpdateContents;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/a0.smali:255:    const-class v2, Lcom/bx/xc7914/updatecontents/M3UUpdateContents;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/a0.smali:295:    const-class v2, Lcom/bx/xc7914/fastogt/updatecontent/OTRUpdateContents;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/a1.smali:259:    const-string v0, "Old password is incorrect!"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/a2.smali:70:    const-string p1, "ezserver"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/U0.smali:823:    const-string v2, "/panel_pro/api/client/content/"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/U0.smali:1896:    const-string v0, "access_token"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/U0.smali:1918:    const-string v1, "refresh_token"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/U0.smali:1942:    const-string v2, "otr_refresh_token"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/U0.smali:1954:    const-string v1, "otr_access_token"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/U0.smali:2079:    const-string p1, "ORPlayerHomeFragment -- loginCheckOTR"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/c0.smali:206:    const-string v1, "ezserver"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/c0.smali:249:    const-string v3, "bg_epg_update"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/e.smali:217:    const-string v2, "backup"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/e.smali:2704:    const-string v3, "/backup.json"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/e.smali:3128:    const-string v1, "&backup="
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/f0.smali:175:    const-string v6, "/player_api.php?username="
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/f0.smali:184:    const-string v6, "&password="
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/f0.smali:320:    const-string v10, "/server/get_epg_info?token="
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/f0.smali:329:    const-string v12, "token"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/f.smali:1085:    const-string v3, "/player_api.php?username="
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/f.smali:1094:    const-string v1, "&password="
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/q.smali:100:    const-string v4, "/server/query_user_days_left?token="
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/q.smali:109:    const-string v5, "token"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/r1.smali:1263:    const-string v1, "ezserver"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/t0.smali:3576:    const-string v2, "ezserver"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/t0.smali:3947:    const-string v1, "bg_epg_update"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/t0.smali:4503:    const-string v2, "/panel_pro/api/client/content/"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/t0.smali:5316:    const-string v0, "access_token"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/t0.smali:5338:    const-string v1, "refresh_token"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/t0.smali:5362:    const-string v2, "otr_refresh_token"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/t0.smali:5374:    const-string v1, "otr_access_token"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/t0.smali:5740:    const-string p1, "ORPlayerHomeFragment -- loginCheckOTR"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/K4/t0.smali:6751:    const-string v6, "ezserver"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:6:.implements Lcom/google/ads/interactivemedia/v3/api/AdsLoader$AdsLoadedListener;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:7:.implements Lcom/google/ads/interactivemedia/v3/api/player/ContentProgressProvider;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:8:.implements Lcom/google/ads/interactivemedia/v3/api/AdEvent$AdEventListener;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:9:.implements Lcom/google/ads/interactivemedia/v3/api/AdErrorEvent$AdErrorListener;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:10:.implements Lcom/google/ads/interactivemedia/v3/api/player/VideoAdPlayer;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:33:.method public final addCallback(Lcom/google/ads/interactivemedia/v3/api/player/VideoAdPlayer$VideoAdPlayerCallback;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:49:.method public final getAdProgress()Lcom/google/ads/interactivemedia/v3/api/player/VideoProgressUpdate;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:65:.method public final getContentProgress()Lcom/google/ads/interactivemedia/v3/api/player/VideoProgressUpdate;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:72:    invoke-virtual {v0}, LL1/e;->E()Lcom/google/ads/interactivemedia/v3/api/player/VideoProgressUpdate;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:208:.method public final loadAd(Lcom/google/ads/interactivemedia/v3/api/player/AdMediaInfo;Lcom/google/ads/interactivemedia/v3/api/AdPodInfo;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:216:    invoke-static {v0, p1, p2}, LL1/e;->b(LL1/e;Lcom/google/ads/interactivemedia/v3/api/player/AdMediaInfo;Lcom/google/ads/interactivemedia/v3/api/AdPodInfo;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:238:.method public final onAdError(Lcom/google/ads/interactivemedia/v3/api/AdErrorEvent;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:242:    invoke-interface {p1}, Lcom/google/ads/interactivemedia/v3/api/AdErrorEvent;->getError()Lcom/google/ads/interactivemedia/v3/api/AdError;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:257:    iget-object v1, v0, LL1/e;->S:Lcom/google/ads/interactivemedia/v3/api/AdsManager;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:294:    invoke-virtual {p1}, Lcom/google/ads/interactivemedia/v3/api/AdError;->getErrorCode()Lcom/google/ads/interactivemedia/v3/api/AdError$AdErrorCode;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:300:    sget-object v2, Lcom/google/ads/interactivemedia/v3/api/AdError$AdErrorCode;->VAST_LINEAR_ASSET_MISMATCH:Lcom/google/ads/interactivemedia/v3/api/AdError$AdErrorCode;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:306:    invoke-virtual {p1}, Lcom/google/ads/interactivemedia/v3/api/AdError;->getErrorCode()Lcom/google/ads/interactivemedia/v3/api/AdError$AdErrorCode;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:312:    sget-object v2, Lcom/google/ads/interactivemedia/v3/api/AdError$AdErrorCode;->UNKNOWN_ERROR:Lcom/google/ads/interactivemedia/v3/api/AdError$AdErrorCode;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:362:.method public final onAdEvent(Lcom/google/ads/interactivemedia/v3/api/AdEvent;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:366:    invoke-interface {p1}, Lcom/google/ads/interactivemedia/v3/api/AdEvent;->getType()Lcom/google/ads/interactivemedia/v3/api/AdEvent$AdEventType;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:379:    invoke-static {v0, p1}, LL1/e;->a(LL1/e;Lcom/google/ads/interactivemedia/v3/api/AdEvent;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:401:.method public final onAdsManagerLoaded(Lcom/google/ads/interactivemedia/v3/api/AdsManagerLoadedEvent;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:405:    invoke-interface {p1}, Lcom/google/ads/interactivemedia/v3/api/AdsManagerLoadedEvent;->getAdsManager()Lcom/google/ads/interactivemedia/v3/api/AdsManager;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:417:    invoke-interface {p1}, Lcom/google/ads/interactivemedia/v3/api/AdsManagerLoadedEvent;->getUserRequestContext()Ljava/lang/Object;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:432:    invoke-interface {v0}, Lcom/google/ads/interactivemedia/v3/api/BaseManager;->destroy()V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:445:    iput-object v0, v1, LL1/e;->S:Lcom/google/ads/interactivemedia/v3/api/AdsManager;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:448:    invoke-interface {v0, p0}, Lcom/google/ads/interactivemedia/v3/api/BaseManager;->addAdErrorListener(Lcom/google/ads/interactivemedia/v3/api/AdErrorEvent$AdErrorListener;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:457:    invoke-interface {v0, p0}, Lcom/google/ads/interactivemedia/v3/api/BaseManager;->addAdEventListener(Lcom/google/ads/interactivemedia/v3/api/AdEvent$AdEventListener;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:470:    invoke-interface {v0}, Lcom/google/ads/interactivemedia/v3/api/AdsManager;->getAdCuePoints()Ljava/util/List;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:510:.method public final pauseAd(Lcom/google/ads/interactivemedia/v3/api/player/AdMediaInfo;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:524:    iget-object v1, v0, LL1/e;->S:Lcom/google/ads/interactivemedia/v3/api/AdsManager;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:572:    check-cast v2, Lcom/google/ads/interactivemedia/v3/api/player/VideoAdPlayer$VideoAdPlayerCallback;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:575:    invoke-interface {v2, p1}, Lcom/google/ads/interactivemedia/v3/api/player/VideoAdPlayer$VideoAdPlayerCallback;->onPause(Lcom/google/ads/interactivemedia/v3/api/player/AdMediaInfo;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:601:.method public final playAd(Lcom/google/ads/interactivemedia/v3/api/player/AdMediaInfo;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:609:    invoke-static {v0, p1}, LL1/e;->h(LL1/e;Lcom/google/ads/interactivemedia/v3/api/player/AdMediaInfo;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:638:.method public final removeCallback(Lcom/google/ads/interactivemedia/v3/api/player/VideoAdPlayer$VideoAdPlayerCallback;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:654:.method public final stopAd(Lcom/google/ads/interactivemedia/v3/api/player/AdMediaInfo;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/d.smali:662:    invoke-static {v0, p1}, LL1/e;->i(LL1/e;Lcom/google/ads/interactivemedia/v3/api/player/AdMediaInfo;)V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/b.smali:15:    invoke-static {}, Lcom/google/ads/interactivemedia/v3/api/AdEvent$AdEventType;->values()[Lcom/google/ads/interactivemedia/v3/api/AdEvent$AdEventType;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/b.smali:31:    sget-object v1, Lcom/google/ads/interactivemedia/v3/api/AdEvent$AdEventType;->AD_BREAK_FETCH_ERROR:Lcom/google/ads/interactivemedia/v3/api/AdEvent$AdEventType;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/b.smali:53:    sget-object v1, Lcom/google/ads/interactivemedia/v3/api/AdEvent$AdEventType;->CONTENT_PAUSE_REQUESTED:Lcom/google/ads/interactivemedia/v3/api/AdEvent$AdEventType;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/b.smali:75:    sget-object v1, Lcom/google/ads/interactivemedia/v3/api/AdEvent$AdEventType;->TAPPED:Lcom/google/ads/interactivemedia/v3/api/AdEvent$AdEventType;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/b.smali:97:    sget-object v1, Lcom/google/ads/interactivemedia/v3/api/AdEvent$AdEventType;->CLICKED:Lcom/google/ads/interactivemedia/v3/api/AdEvent$AdEventType;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/b.smali:119:    sget-object v1, Lcom/google/ads/interactivemedia/v3/api/AdEvent$AdEventType;->CONTENT_RESUME_REQUESTED:Lcom/google/ads/interactivemedia/v3/api/AdEvent$AdEventType;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/b.smali:141:    sget-object v1, Lcom/google/ads/interactivemedia/v3/api/AdEvent$AdEventType;->LOG:Lcom/google/ads/interactivemedia/v3/api/AdEvent$AdEventType;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/i.smali:467:    iget-object v4, v0, LL1/e;->S:Lcom/google/ads/interactivemedia/v3/api/AdsManager;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/i.smali:473:    invoke-interface {v4}, Lcom/google/ads/interactivemedia/v3/api/AdsManager;->pause()V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/i.smali:570:    invoke-virtual {v0}, LL1/e;->A()Lcom/google/ads/interactivemedia/v3/api/player/VideoProgressUpdate;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/i.smali:576:    iput-object v4, v0, LL1/e;->Q:Lcom/google/ads/interactivemedia/v3/api/player/VideoProgressUpdate;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/i.smali:579:    invoke-virtual {v0}, LL1/e;->E()Lcom/google/ads/interactivemedia/v3/api/player/VideoProgressUpdate;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/i.smali:585:    iput-object v4, v0, LL1/e;->P:Lcom/google/ads/interactivemedia/v3/api/player/VideoProgressUpdate;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/i.smali:643:    iget-object v2, v1, LL1/e;->S:Lcom/google/ads/interactivemedia/v3/api/AdsManager;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/i.smali:730:    invoke-interface {v2}, Lcom/google/ads/interactivemedia/v3/api/AdsManager;->discardAdBreak()V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/i.smali:737:    invoke-interface {v2}, Lcom/google/ads/interactivemedia/v3/api/AdsManager;->resume()V
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/k.smali:133:.method public static b(LL1/h;LG2/q;)Lcom/google/ads/interactivemedia/v3/api/AdsRequest;
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/smali/L1/k.smali:140:    invoke-static {}, Lcom/google/ads/interactivemedia/v3/api/ImaSdkFactory;->getInstance()Lcom/google/ads/interactivemedia/v3/api/ImaSdkFactory;
+
+## Arquivos próprios por tamanho
+501095 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/PlayStreamEPGActivity.java
+107373 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/MultiScreenActivityEXO.java
+42929 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ORPlayerMainActivity.java
+35813 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/fastogt/updatecontent/OTRUpdateContents.java
+34815 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ytextractor/YouTubeExtractor.java
+34393 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/services/OTRServices.java
+33077 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/RecordsActivity.java
+31764 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/util/Methods.java
+27011 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/util/g.java
+26914 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/CatchupPlayerActivity.java
+24676 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ChannelListActivity.java
+23917 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/SeriesActivity.java
+17874 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/SettingsMenuActivity.java
+16719 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/PlayerSettingsActivity.java
+16302 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/MovieInfoActivity.java
+15596 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/epg/EPGActivityXMLTV.java
+15492 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/BackupActivity.java
+14966 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/util/k.java
+14947 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/updatecontents/XCUpdateContents.java
+14728 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/CatchupActivity.java
+13257 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ChannelPickerActivity.java
+12759 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/UsersHistoryActivity.java
+12301 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/exo/CustomTrackSelectionView.java
+11178 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ServiceStatusActivity.java
+10571 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/CategoriesActivity.java
+10115 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/util/l.java
+9774 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/LoginActivity.java
+9177 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/updatecontents/EZServerUpdateContents.java
+9136 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/RadioPlayerActivity.java
+8569 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/SplashActivity.java
+7505 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ParentalControlActivity.java
+7143 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ProgramRemindersActivity.java
+7102 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/OpenVPNAddConfigActivity.java
+6108 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/updatecontents/M3UUpdateContents.java
+5705 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/OpenVPNActivity.java
+5079 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/OpenVPNCountryListActivity.java
+4367 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ytextractor/Format.java
+4187 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ytextractor/VideoMeta.java
+4008 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/services/RecordingServices.java
+3737 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/MaintenanceActivity.java
+3695 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/OtherSettingsActivity.java
+3274 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/LogViewActivity.java
+2884 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/util/a.java
+2609 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/LanguagePickerActivity.java
+2570 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/speedtest/SpeedTestActivity.java
+2230 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/util/Config.java
+1875 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/DeviceStatus.java
+1507 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ytextractor/YtFile.java
+1427 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/SplashVideoActivity.java
+1421 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/util/h.java
+1310 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ScrollDisabledListView.java
+1272 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/util/f.java
+1215 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/encryption/Encrypt.java
+1209 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/SearchActivity.java
+1149 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/util/b.java
+1064 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/util/d.java
+819 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/util/ORPlayerLinearLayoutManager.java
+731 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/ORPlayerSpeedyLinearLayoutManager.java
+721 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/OpenSourceLicenseActivity.java
+564 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/util/OTRApp.java
+531 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/util/FocusFixFrameLayout.java
+518 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/util/c.java
+493 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/Config/BoxBRSettings.java
+464 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/util/e.java
+427 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/encryption/BackupEncrypt.java
+178 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/util/j.java
+95 /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/jadx/app/src/main/java/com/bx/xc7914/util/i.java

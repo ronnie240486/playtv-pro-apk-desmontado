@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/orplayer_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_bg" android:background="@drawable/corner_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <bx.BXbg android:layout_gravity="center" android:background="@drawable/bg2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:contentDescription="@string/app_name" android:layerType="software" />
+    <FrameLayout android:background="@color/orplayer_header_color" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <Button android:layout_gravity="center|right" android:id="@id/btn_folder" android:background="@drawable/btn_green" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginRight="10.0dip" android:text="Select Location" android:fontFamily="@font/quicksand_regular" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+            <Button android:textColor="@color/orplayer_skyblue_font_color" android:id="@id/btn_my_recordings" android:background="@drawable/btn" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="My Recordings" android:fontFamily="@font/quicksand_regular" />
+            <Button android:textColor="@color/orplayer_skyblue_font_color" android:id="@id/btn_my_schedule" android:background="@drawable/btn" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:text="My Schedules" android:fontFamily="@font/quicksand_regular" />
+            <Button android:textColor="@color/orplayer_skyblue_font_color" android:id="@id/btn_add_schedule" android:background="@drawable/btn" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:text="Add" android:layout_weight="1.0" android:fontFamily="@font/quicksand_regular" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:background="#8b151515" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginTop="60.0dip" android:layout_marginRight="15.0dip">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/listview_record" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

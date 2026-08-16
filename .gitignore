@@ -1,0 +1,14 @@
+# Caches e arquivos locais
+.DS_Store
+.idea/
+*.iml
+.gradle/
+build/
+
+# Logs e temporários
+*.log
+*.tmp
+*.bak
+
+# Saídas locais de ferramentas
+/tmp/

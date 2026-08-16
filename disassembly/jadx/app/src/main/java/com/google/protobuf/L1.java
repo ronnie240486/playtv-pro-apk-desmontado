@@ -1,0 +1,125 @@
+package com.google.protobuf;
+
+import java.nio.charset.Charset;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Set;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class L1 extends LinkedHashMap {
+
+    /* JADX INFO: renamed from: z, reason: collision with root package name */
+    public static final L1 f24381z;
+
+    /* JADX INFO: renamed from: y, reason: collision with root package name */
+    public boolean f24382y = true;
+
+    static {
+        L1 l7 = new L1();
+        f24381z = l7;
+        l7.f24382y = false;
+    }
+
+    public static int a(Object obj) {
+        if (!(obj instanceof byte[])) {
+            if (obj instanceof InterfaceC2641o1) {
+                throw new UnsupportedOperationException();
+            }
+            return obj.hashCode();
+        }
+        byte[] bArr = (byte[]) obj;
+        Charset charset = AbstractC2668v1.f24636a;
+        int length = bArr.length;
+        for (byte b7 : bArr) {
+            length = (length * 31) + b7;
+        }
+        if (length == 0) {
+            return 1;
+        }
+        return length;
+    }
+
+    public final void b() {
+        if (!this.f24382y) {
+            throw new UnsupportedOperationException();
+        }
+    }
+
+    public final L1 c() {
+        if (isEmpty()) {
+            return new L1();
+        }
+        L1 l7 = new L1(this);
+        l7.f24382y = true;
+        return l7;
+    }
+
+    @Override // java.util.LinkedHashMap, java.util.HashMap, java.util.AbstractMap, java.util.Map
+    public final void clear() {
+        b();
+        super.clear();
+    }
+
+    @Override // java.util.LinkedHashMap, java.util.HashMap, java.util.AbstractMap, java.util.Map
+    public final Set entrySet() {
+        return isEmpty() ? Collections.emptySet() : super.entrySet();
+    }
+
+    @Override // java.util.AbstractMap, java.util.Map
+    public final boolean equals(Object obj) {
+        if (obj instanceof Map) {
+            Map map = (Map) obj;
+            if (this != map) {
+                if (size() == map.size()) {
+                    for (Map.Entry entry : entrySet()) {
+                        if (map.containsKey(entry.getKey())) {
+                            Object value = entry.getValue();
+                            Object obj2 = map.get(entry.getKey());
+                            if (!(((value instanceof byte[]) && (obj2 instanceof byte[])) ? Arrays.equals((byte[]) value, (byte[]) obj2) : value.equals(obj2))) {
+                            }
+                        }
+                    }
+                }
+            }
+            return true;
+        }
+        return false;
+    }
+
+    @Override // java.util.AbstractMap, java.util.Map
+    public final int hashCode() {
+        int iA = 0;
+        for (Map.Entry entry : entrySet()) {
+            iA += a(entry.getValue()) ^ a(entry.getKey());
+        }
+        return iA;
+    }
+
+    @Override // java.util.HashMap, java.util.AbstractMap, java.util.Map
+    public final Object put(Object obj, Object obj2) {
+        b();
+        Charset charset = AbstractC2668v1.f24636a;
+        obj.getClass();
+        obj2.getClass();
+        return super.put(obj, obj2);
+    }
+
+    @Override // java.util.HashMap, java.util.AbstractMap, java.util.Map
+    public final void putAll(Map map) {
+        b();
+        for (Object obj : map.keySet()) {
+            Charset charset = AbstractC2668v1.f24636a;
+            obj.getClass();
+            map.get(obj).getClass();
+        }
+        super.putAll(map);
+    }
+
+    @Override // java.util.HashMap, java.util.AbstractMap, java.util.Map
+    public final Object remove(Object obj) {
+        b();
+        return super.remove(obj);
+    }
+}

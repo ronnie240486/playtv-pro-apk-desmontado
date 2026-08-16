@@ -1,0 +1,962 @@
+# Varredura de strings nas bibliotecas nativas
+
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/arm64-v8a/libavresample.so
+Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
+Triangular Dither With Noise Shaping
+avresample_license
+libavresample license: LGPL version 2.1 or later
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/arm64-v8a/libboxbr.so
+Android (7155654, based on r399163b1) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
+pthread_key_create
+pthread_key_delete
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/arm64-v8a/libboxbrpro.so
+()Landroid/content/pm/PackageManager;
+()Landroid/os/Bundle;
+(ILjava/security/Key;)V
+(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
+(Landroid/content/pm/PackageInfo;)J
+(Landroid/os/Bundle;)V
+(Landroid/view/KeyEvent$Callback;I)V
+(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
+AgetnKeyFromJNI
+Android (7155654, based on r399163b1) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
+AppPackage
+BUNDLE_ID
+Landroid/content/pm/PackageInfo;
+Landroid/content/pm/PackageManager$NameNotFoundException;
+Landroid/content/pm/PackageManager;
+Landroid/os/Bundle;
+Landroid/view/KeyEvent$Callback;
+Lcom/bx/xc7914/updatecontents/EZServerUpdateContents;
+Ljava/security/Key;
+Ljavax/crypto/spec/SecretKeySpec;
+PanelApiPri
+SERVER_API
+SERVER_API1
+SERVER_API2
+android/content/pm/PackageInfo
+android/content/pm/PackageManager
+android/content/pm/PackageManager$NameNotFoundException
+android/os/Bundle
+android/view/KeyEvent$Callback
+com/bx/xc7914/updatecontents/EZServerUpdateContents
+getPackageInfo
+getPackageManager
+getPackageName
+java/security/Key
+javax/crypto/spec/SecretKeySpec
+keySet
+papione
+papitwo
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/arm64-v8a/libc++_shared.so
+Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+The future has already been retrieved from the promise or packaged_task.
+pthread_key_create
+pthread_key_delete
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/arm64-v8a/libffmpeg.so
+Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/arm64-v8a/libffmpegJNI.so
+Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)
+HTTP_SERVER_ERROR
+If you want to help, upload a sample of this file to ftp://upload.ffmpeg.org/incoming/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+Key '%s' not found.
+Missing key or no key/value separator found after key '%s'
+Monkey's Audio
+RealAudio SIPR / ACELP.NET
+Requested noise shaping dither not available at this sampling rate, using triangular hp dither
+SMPTE 336M Key-Length-Value (KLV) metadata
+Server returned 400 Bad Request
+Server returned 401 Unauthorized (authorization failed)
+Server returned 403 Forbidden (access denied)
+Server returned 404 Not Found
+Server returned 4XX Client Error, but not one of 40{0,1,3,4}
+Server returned 5XX Server Error reply
+Setting entry with key '%s' to value '%s'
+Show all frames before the first keyframe
+The deprecated avcodec_decode_* API cannot return all the frames for this decoder. Some frames will be dropped. Update your code to the new decoding API to fix this.
+av_get_token
+av_opt_get_key_value
+avcodec_license
+avutil_license
+discard all frames except keyframes
+keyint_min
+libavcodec license: LGPL version 2.1 or later
+libavutil license: LGPL version 2.1 or later
+libswresample license: LGPL version 2.1 or later
+place global headers at every keyframe instead of in extradata
+place global headers in extradata instead of every keyframe
+select Lipshitz noise shaping dither
+select Shibata noise shaping dither
+select f-weighted noise shaping dither
+select high Shibata noise shaping dither
+select improved-e-weighted noise shaping dither
+select low Shibata noise shaping dither
+select modified-e-weighted noise shaping dither
+swresample_license
+swri_noise_shaping_double
+swri_noise_shaping_float
+swri_noise_shaping_int16
+swri_noise_shaping_int32
+swri_oldapi_conv_flt_to_s16_neon
+swri_oldapi_conv_fltp_to_s16_2ch_neon
+swri_oldapi_conv_fltp_to_s16_nch_neon
+vaapi_idct
+vaapi_moco
+vaapi_vld
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/arm64-v8a/libjbcrypto.so
+Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
+EVP_KEY is null
+java/security/InvalidKeyException
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/arm64-v8a/libopenvpn.so
+                         (for use with --secret, --tls-auth or --tls-crypt).
+                      ip/port rather than listen as a TCP server.
+                   (Server) Instead of forwarding IPv6 packets send
+                   nonce_secret_len=nsl.  Set alg=none to disable PRNG.
+                  3 -- allow password to be passed to scripts via env
+                  For servers: use key to decrypt client-specific keys.  For
+                  If d is specified, use separate keys for each
+                  The optional d parameter controls key directionality,
+                  The optional d parameter controls key directionality.
+                  Use shared secret file f, generate with --genkey.
+                  VPN.  Add 'local' flag if both OpenVPN servers are directly
+                  after new key renegotiation begins (default=%d).
+                  an explicit nsCertType designation t = 'client' | 'server'.
+                  and a password on the second. If either the password or both
+                  and at least min (defaults to 90%% of max on servers and equal
+                  and auth-user-pass passwords.
+                  by server EXCEPT for routes and dhcp options.
+                  client-supplied tls-crypt-v2 client key
+                  determine auth method and query for username/password
+                  encrypt generated client-specific key.  (See --tls-crypt.)
+                  explicit extended key usage. Extended key usage can be encoded
+                  explicit key usage, you can specify more than one value.
+                  f (required) is a shared-secret key file.
+                  flag to add a direct route to DHCP server, bypassing tunnel.
+                  fresh tls-crypt-v2 client key, and store to
+                  fresh tls-crypt-v2 server key, and store to keyfile
+                  in .pem format (for --tls-server only).
+                  key (required) provides the pre-shared key file.
+                  key generation (--tls-crypt-v2-genkey): use key to
+                  key usage and extended key usage based on RFC3280 TLS rules.
+                  keyfile.  If supplied, include metadata in wrapped key.
+                  management functions.  pass is a password file
+                  p = udp (default), tcp-server, or tcp-client
+                  p = udp6, tcp6-server, or tcp6-client (ipv6)
+                  see --secret option for more info.
+                  server if it starts with the text t. The action flag accept,
+                  server/remote. n = # of retries, default=1.
+                  t = 'client' | 'server'.
+                  the username and the password are omitted OpenVPN will prompt
+                  up is a file containing username/password on 2 lines, or
+                  waiting for a response before trying the next server.
+                  when connecting to a '--mode server' remote host.
+        Public key OCSP hash: 
+        Subject Public Key Info:
+  "priv_key_file" = %s
+  genkey = %s
+  genkey_filename = '%s'
+  key_direction = %s
+  key_method = %d
+  key_pass_file = '%s'
+  keysize = %d
+  persist_key = %s
+  priv_key_file = '%s'
+  prng_nonce_secret_len = %d
+  server = '%s'
+  shared_secret_file = '%s'
+  socks_proxy_server = '%s'
+  tls_server = %s
+ [key#%d state=%s id=%d sid=%s]
+# %d bit OpenVPN static key
+%*s%s Private-Key:
+%*s%s Public-Key:
+%*s<INVALID PRIVATE KEY>
+%*s<INVALID PUBLIC KEY>
+%*sKey Id: 
+%12sPublic Key Algorithm: 
+%12sUnable to load Public Key
+%s  (%d bit key%s, 
+%s PRIVATE KEY
+%s: CIPHER KEY: %s
+%s: Cipher '%s' initialized with %d bit key
+%s: HMAC KEY: %s
+%s: client key authentication error
+%s: could not decrypt client key
+%s: exported keying material: %s
+%s: failed to read client key
+%s: unwrapping client key (len=%d): %s
+%s: wrapped client key too big
+%sOptions warning: Bad backslash ('\') usage in %s:%d: remember that backslashes are treated as shell-escapes and if you need to pass backslash characters as part of a Windows filename, you should use double backslashes such as "c:\\openvpn\\static.key"
+(TEST_ENG_OPENSSL_PKEY)Loading Private key %s
+(TEST_ENG_OPENSSL_RC4) test_init_key() called
+(These options are meaningful for both Static Key & TLS-mode)
+(o->shared_secret_file != NULL) + (TLS_CLIENT == true) + (TLS_SERVER == true) <= 1
+, TLS client/server mode only
+,key-method %d
+,keydir %s
+,keysize %d
+,secret
+,tls-server
+-----BEGIN OpenVPN Static key V1-----
+-----END OpenVPN Static key V1-----
+--allow-pull-fqdn : Allow client to pull DNS names from server for
+--askpass [file]: Get PEM password from controlling tty before we daemonize.
+--auth-nocache  : Don't cache --askpass or --auth-user-pass passwords.
+--auth-token-gen: HMAC on token from client failed (%s)
+--auth-token-gen: auth-token from client expired
+--auth-user-pass [up] : Authenticate with server using username/password.
+--block-ipv6     : (Client) Instead sending IPv6 to the server generate
+--client requires --key-method 2
+--connect-timeout n : when polling possible remote servers to connect to
+--dhcp-option %s: maximum of %d %s servers can be specified
+--dhcp-option DNS: maximum of %d IPv6 dns servers can be specified
+--genkey secret file   : Generate a new random key of type and write to file
+--genkey tls-crypt-v2-client [keyfile] [base64 metadata]: Generate a
+--genkey tls-crypt-v2-client requires a server key to be set via --tls-crypt-v2 to create a client key
+--genkey tls-crypt-v2-server [keyfile] [base64 metadata]: Generate a
+--hand-window n : Data channel key exchange must finalize within n seconds
+--inetd [name] ['wait'|'nowait'] : Run as an inetd or xinetd server.
+--inetd nowait can only be used with --proto tcp-server
+--keepalive n m : Helper option for setting timeouts in server mode.  Send
+--key and --management-external-key are mutually exclusive
+--key file      : Local private key in .pem format.
+--key-method m  : (DEPRECATED) Data channel key exchange method.  m should be a method
+--keysize directive.  Using a CBC or GCM mode is recommended.
+--keysize n     : (DEPRECATED) Size of cipher key in bits (optional).
+--management ip port [pass] : Enable a TCP server on ip:port to handle
+--management user/password file
+--management-external-cert must be used with --management-external-key
+--management-forget-disconnect : Forget passwords when management disconnect
+--management-query-passwords : Query management channel for private key
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/arm64-v8a/libopvpnutil.so
+Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
+Java_de_blinkt_openvpn_core_NativeUtils_getJNIAPI
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/arm64-v8a/libosslspeedtest.so
+        Public key OCSP hash: 
+        Subject Public Key Info:
+%*s%s Private-Key:
+%*s%s Public-Key:
+%*s<INVALID PRIVATE KEY>
+%*s<INVALID PUBLIC KEY>
+%*sKey Id: 
+%12sPublic Key Algorithm: 
+%12sUnable to load Public Key
+%s PRIVATE KEY
+(TEST_ENG_OPENSSL_PKEY)Loading Private key %s
+(TEST_ENG_OPENSSL_RC4) test_init_key() called
+AES_set_decrypt_key
+AES_set_encrypt_key
+AES_unwrap_key
+AES_wrap_key
+ANY PRIVATE KEY
+AUTHORITY_KEYID_free
+AUTHORITY_KEYID_it
+AUTHORITY_KEYID_new
+Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
+Any Extended Key Usage
+BF_set_key
+CMS_EncryptedData_set1_key
+CMS_KeyAgreeRecipientIdentifier
+CMS_KeyAgreeRecipientInfo
+CMS_KeyAgreeRecipientInfo_it
+CMS_KeyTransRecipientInfo
+CMS_KeyTransRecipientInfo_it
+CMS_OriginatorIdentifierOrKey
+CMS_OriginatorPublicKey
+CMS_OriginatorPublicKey_it
+CMS_OtherKeyAttribute
+CMS_OtherKeyAttribute_it
+CMS_PasswordRecipientInfo
+CMS_PasswordRecipientInfo_it
+CMS_RecipientEncryptedKey
+CMS_RecipientEncryptedKey_cert_cmp
+CMS_RecipientEncryptedKey_get0_id
+CMS_RecipientEncryptedKey_it
+CMS_RecipientInfo_get0_pkey_ctx
+CMS_RecipientInfo_kari_set0_pkey
+CMS_RecipientInfo_set0_key
+CMS_RecipientInfo_set0_password
+CMS_RecipientInfo_set0_pkey
+CMS_RecipientKeyIdentifier
+CMS_RecipientKeyIdentifier_it
+CMS_SignerInfo_get0_pkey_ctx
+CMS_add0_recipient_key
+CMS_add0_recipient_password
+CMS_decrypt_set1_key
+CMS_decrypt_set1_password
+CMS_decrypt_set1_pkey
+CTLOG_get0_public_key
+DES_check_key_parity
+DES_is_weak_key
+DES_key_sched
+DES_set_key
+DES_set_key_checked
+DES_set_key_unchecked
+DH Private-Key
+DH Public-Key
+DH_check_pub_key
+DH_check_pub_key_ex
+DH_compute_key_padded
+DH_generate_key
+DH_get0_key
+DH_get0_priv_key
+DH_get0_pub_key
+DH_set0_key
+DSA_generate_key
+DSA_get0_key
+DSA_get0_priv_key
+DSA_get0_pub_key
+DSA_set0_key
+DSTU Gost 28147-2009 key wrap
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\asn1\t_pkey.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\conf\conf_api.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\dh\dh_key.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\ec\ec_key.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\engine\eng_pkey.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\evp\evp_key.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\evp\evp_pkey.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\pem\pem_pkey.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\pkcs12\p12_key.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\x509\x_pubkey.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\x509v3\v3_akey.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\x509v3\v3_skey.c
+ECDH_compute_key
+ECP_NISTZ256 for ARMv8, CRYPTOGAMS by <appro@openssl.org>
+EC_KEY_METHOD_free
+EC_KEY_METHOD_get_compute_key
+EC_KEY_METHOD_get_init
+EC_KEY_METHOD_get_keygen
+EC_KEY_METHOD_get_sign
+EC_KEY_METHOD_get_verify
+EC_KEY_METHOD_new
+EC_KEY_METHOD_set_compute_key
+EC_KEY_METHOD_set_init
+EC_KEY_METHOD_set_keygen
+EC_KEY_METHOD_set_sign
+EC_KEY_METHOD_set_verify
+EC_KEY_OpenSSL
+EC_KEY_can_sign
+EC_KEY_check_key
+EC_KEY_clear_flags
+EC_KEY_copy
+EC_KEY_dup
+EC_KEY_free
+EC_KEY_generate_key
+EC_KEY_get0_engine
+EC_KEY_get0_group
+EC_KEY_get0_private_key
+EC_KEY_get0_public_key
+EC_KEY_get_conv_form
+EC_KEY_get_default_method
+EC_KEY_get_enc_flags
+EC_KEY_get_ex_data
+EC_KEY_get_flags
+EC_KEY_get_method
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/arm64-v8a/libovpnexec.so
+Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/arm64-v8a/libvlc.so
+			<EssentialProperty id="%d" schemeIdUri="http://dashif.org/guidelines/trickmode" value="%d"/>
+		Authority Key Identifier (%s):
+		Challenge password: %s
+		Public key (bits %d):
+		Public key (bits %d): 
+	%sPublic Key Algorithm: %s
+	<bootstrapInfo profile="named" url="stream%d.abst" id="bootstrap%d" />
+	<media bitrate="%d" url="stream%d" bootstrapInfoId="bootstrap%d">
+	Subject Public Key Algorithm: %s
+	noise shaping: %d
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd"
+                                 UDP stream sent by a streaming server
+                          %s(lessThanEqual(color.br, vec2(0.0)))) 
+                %s(lessThanEqual(color.br, vec2(0.0))));  
+    External API interop:
+  "http://www.w3.org/TR/html4/strict.dtd">
+  http://host[:port]/file        HTTP URL
+  keyframe=%d
+  xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
+  xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+  xmlns:tts="http://www.w3.org/ns/ttml#styling"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.w3.org/ns/ttml"
+ (private-key  (rsa  (n #009F56231A3D82E3E7D613D59D53E9AB921BEF9F08A782AED0B6E46ADBC853EC      7C71C422435A3CD8FA0DB9EFD55CD3295BADC4E8E2E2B94E15AE82866AB8ADE8      7E469FAE76DC3577DE87F1F419C4EB41123DFAF8D16922D5EDBAD6E9076D5A1C      958106F0AE5E2E9193C6B49124C64C2A241C4075D4AF16299EB87A6585BAE917      DEF27FCDD165764D069BC18D16527B29DAAB549F7BBED4A7C6A842D203ED6613      6E2411744E432CD26D940132F25874483DCAEECDFD95744819CBCF1EA810681C      42907EBCB1C7EAFBE75C87EC32C5413EA10476545D3FC7B2ADB1B66B7F200918      664B0E5261C2895AA28B0DE321E921B3F877172CCCAB81F43EF98002916156F6CB#)   (e #010001#)   (d #07EF82500C403899934FE993AC5A36F14FF2DF38CF1EF315F205EE4C83EDAA19       8890FC23DE9AA933CAFB37B6A8A8DBA675411958337287310D3FF2F1DDC0CB93       7E70F57F75F833C021852B631D2B9A520E4431A03C5C3FCB5742DCD841D9FB12       771AA1620DCEC3F1583426066ED9DC3F7028C5B59202C88FDF20396E2FA0EC4F       5A22D9008F3043673931BC14A5046D6327398327900867E39CC61B2D1AFE2F48       EC8E1E3861C68D257D7425F4E6F99ABD77D61F10CA100EFC14389071831B33DD       69CC8EABEF860D1DC2AAA84ABEAE5DFC91BC124DAF0F4C8EF5BBEA436751DE84       3A8063E827A024466F44C28614F93B0732A100D4A0D86D532FE1E22C7725E401#)   (p #00C29D438F115825779631CD665A5739367F3E128ADC29766483A46CA80897E0       79B32881860B8F9A6A04C2614A904F6F2578DAE13EA67CD60AE3D0AA00A1FF9B       441485E44B2DC3D0B60260FBFE073B5AC72FAF67964DE15C8212C389D20DB9CF       54AF6AEF5C4196EAA56495DD30CF709F499D5AB30CA35E086C2A1589D6283F1783#)   (q #00D1984135231CB243FE959C0CBEF551EDD986AD7BEDF71EDF447BE3DA27AF46       79C974A6FA69E4D52FE796650623DE70622862713932AA2FD9F2EC856EAEAA77       88B4EA6084DC81C902F014829B18EA8B2666EC41586818E0589E18876065F97E       8D22CE2DA53A05951EC132DCEF41E70A9C35F4ACC268FFAC2ADF54FA1DA110B919#)   (u #67CF0FD7635205DD80FA814EE9E9C267C17376BF3209FB5D1BC42890D2822A04       479DAF4D5B6ED69D0F8D1AF94164D07F8CD52ECEFE880641FA0F41DDAB1785E4       A37A32F997A516480B4CD4F6482B9466A1765093ED95023CA32D5EDC1E34CEE9       AF595BC51FE43C4BF810FA225AF697FB473B83815966188A4312C048B885E3F7#)))
+ (public-key  (rsa   (n #009F56231A3D82E3E7D613D59D53E9AB921BEF9F08A782AED0B6E46ADBC853EC       7C71C422435A3CD8FA0DB9EFD55CD3295BADC4E8E2E2B94E15AE82866AB8ADE8       7E469FAE76DC3577DE87F1F419C4EB41123DFAF8D16922D5EDBAD6E9076D5A1C       958106F0AE5E2E9193C6B49124C64C2A241C4075D4AF16299EB87A6585BAE917       DEF27FCDD165764D069BC18D16527B29DAAB549F7BBED4A7C6A842D203ED6613       6E2411744E432CD26D940132F25874483DCAEECDFD95744819CBCF1EA810681C       42907EBCB1C7EAFBE75C87EC32C5413EA10476545D3FC7B2ADB1B66B7F200918       664B0E5261C2895AA28B0DE321E921B3F877172CCCAB81F43EF98002916156F6CB#)   (e #010001#)))
+ (transient-key)
+ - extended master secret (RFC7627) enabled
+ NMTOKEN
+ NMTOKENS
+ Password.</p>
+ added new "ProxyServerMediaSubsession" for 
+ is not a 'ServerMediaSession' object
+ is not a RTSP server
+ keyint=%d
+ keyint=infinite
+ keyint_min=%d scenecut=%d intra_refresh=%d
+ xmlns="http://www.w3.org/1999/xhtml"
+!(private-key (dsa  (p #9DB6FB5951B66BB6FE1E140F1D2CE5502374161FD6538DF1648218642F0B5C48C8F7A41AADFA187324B87674FA1822B00F1ECF8136943D7C55757264E5A1A44FFE012E9936E00C1D3E9310B01C7D179805D3058B2A9F4BB6F9716BFE6117C6B5B3CC4D9BE341104AD4A80AD6C94E005F4B993E14F091EB51743BF33050C38DE235567E1B34C3D6A5C0CEAA1A0F368213C3D19843D0B4B09DCB9FC72D39C8DE41F1BF14D4BB4563CA28371621CAD3324B6A2D392145BEBFAC748805236F5CA2FE92B871CD8F9C36D3292B5509CA8CAA77A2ADFC7BFD77DDA6F71125A7456FEA153E433256A2261C6A06ED3693797E7995FAD5AABBCFBE3EDA2741E375404AE25B#)  (q #F2C3119374CE76C9356990B465374A17F23F9ED35089BD969F61C6DDE9998C1F#)  (g #5C7FF6B06F8F143FE8288433493E4769C4D988ACE5BE25A0E24809670716C613D7B0CEE6932F8FAA7C44D2CB24523DA53FBE4F6EC3595892D1AA58C4328A06C46A15662E7EAA703A1DECF8BBB2D05DBE2EB956C142A338661D10461C0D135472085057F3494309FFA73C611F78B32ADBB5740C361C9F35BE90997DB2014E2EF5AA61782F52ABEB8BD6432C4DD097BC5423B285DAFB60DC364E8161F4A2A35ACA3A10B1C4D203CC76A470A33AFDCBDD92959859ABD8B56E1725252D78EAC66E71BA9AE3F1DD2487199874393CD4D832186800654760E1E34C09E4D155179F9EC0DC4473F996BDCE6EED1CABED8B6F116F7AD9CF505DF0F998E34AB27514B0FFE7#)  (y #667098C654426C78D7F8201EAC6C203EF030D43605032C2F1FA937E5237DBD949F34A0A2564FE126DC8B715C5141802CE0979C8246463C40E6B6BDAA2513FA611728716C2E4FD53BC95B89E69949D96512E873B9C8F8DFD499CC312882561ADECB31F658E934C0C197F2C4D96B05CBAD67381E7B768891E4DA3843D24D94CDFB5126E9B8BF21E8358EE0E0A30EF13FD6A664C0DCE3731F7FB49A4845A4FD8254687972A2D382599C9BAC4E0ED7998193078913032558134976410B89D2C171D123AC35FD977219597AA7D15C1A9A428E59194F75C721EBCBCFAE44696A499AFA74E04299F132026601638CB87AB79190D4A0986315DA8EEC6561C938996BEADF#)  (x #69C7548C21D0DFEA6B9A51C9EAD4E27C33D3B3F180316E5BCAB92C933F0E4DBC#)))
+!(private-key (ecc  (curve secp256r1)  (d #C9AFA9D845BA75166B5C215767B1D6934E50C3DB36E89B127B8A622B120F6721#)  (q #0460FED4BA255A9D31C961EB74C6356D68C049B8923B61FA6CE669622E60F29FB67903FE1008B8BC99A41AE9E95628BC64F2F1B20C2D7E9F5177A3C294D4462299#)))
+!F9.io
+!flv->keyframe_filepositions
+!flv->keyframe_times
+"http://schemas.upnp.org/upnp/1/0/"; ns=01
+#   http://www.brynosaurus.com/cachedir/
+#EXT-X-KEY:
+#EXT-X-KEY:METHOD=AES-128,URI="%s"
+#EXT-X-KEY:METHOD=AES-128,URI="%s",IV=0X%16.16llx%16.16llx
+$LuaVersion: Lua 5.4.4  Copyright (C) 1994-2022 Lua.org, PUC-Rio $$LuaAuthors: R. Ierusalimschy, L. H. de Figueiredo, W. Celes $
+%2d %08ld polyphonic key pressure: ch %d 0x%02x 0x%02x
+%d available descrambler(s) (keys)
+%s			TLS WWW Server.
+%s		Authority Key Identifier (%s):
+%s		Key Purpose (%s):
+%s		Key Usage (%s):
+%s		Private Key Usage Period (%s):
+%s		Subject Key Identifier (%s):
+%s certificate does not allow digital signatures. Key usage violation detected (ignored).
+%s certificate does not allow digital signatures. Key usage violation detected.
+%s key %d bits, 
+%s: unknown public key algorithm: %s
+%sKey agreement.
+%sKey decipher only.
+%sKey encipher only.
+%sKey encipherment.
+%sPublic Key ID:
+%sPublic Key PIN:
+%sTransport: %s;unicast;destination=%s;source=%s;client_port=%d;server_port=%d
+%sTransport: RTP/%s;unicast;destination=%s;source=%s;client_port=%d-%d;server_port=%d-%d
+%skey-%s
+' id='%s'?><x:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='VLC 4.0.0-dev'><rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'><rdf:Description rdf:about='' xmlns:tiff='http://ns.adobe.com/tiff/1.0/'><tiff:Orientation>%u</tiff:Orientation></rdf:Description></rdf:RDF></x:xmpmeta><?xpacket end='r'?>
+'file_packet_metadata key=value:key=value' is deprecated, use multiple 'file_packet_meta key value' instead
+'meta' keys and values must be strings
+'package.%s' must be a string
+'package.searchers' must be a table
+()Landroid/security/keystore/KeyGenParameterSpec;
+()Ljavax/crypto/SecretKey;
+(I)Landroid/security/keystore/KeyGenParameterSpec$Builder;
+(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
+(Ljava/lang/String;)Ljava/security/KeyStore;
+(Ljava/lang/String;Ljava/lang/String;)Ljavax/crypto/KeyGenerator;
+(Ljava/lang/String;Ljava/security/KeyStore$ProtectionParameter;)Ljava/security/KeyStore$Entry;
+(Ljava/security/KeyStore$LoadStoreParameter;)V
+([Ljava/lang/String;)Landroid/security/keystore/KeyGenParameterSpec$Builder;
+(key-data (public-key  (dsa(p%m)(q%m)(g%m)(y%m))) (private-key  (dsa(p%m)(q%m)(g%m)(y%m)(x%m))) %S)
+(key-data (public-key  (ecc%S%S(p%m)(a%m)(b%m)(g%m)(n%m)(h%u)(q%m))) (private-key  (ecc%S%S(p%m)(a%m)(b%m)(g%m)(n%m)(h%u)(q%m)(d%m))) )
+(key-data (public-key  (ecc%S%S(q%m))) (private-key  (ecc%S%S(q%m)(d%m))) )
+(key-data (public-key  (rsa(n%m)(e%m))) (private-key  (rsa(n%m)(e%m)(d%m)(p%m)(q%m)(u%m))) %S)
+(misc-key-info
+(misc-key-info(p-q-swapped))
+(private-key(dsa(p%b)(q%b)(g%b)(y%b)(x%b)))
+(private-key(ecc(p%m)(a%m)(b%m)(g%m)(n%m)(h%u)(q%m)(d%m)))
+(private-key(rsa(n%b)(e%b)(d%b)(q%b)(p%b)(u%b)))
+(public-key (dsa  (p #9DB6FB5951B66BB6FE1E140F1D2CE5502374161FD6538DF1648218642F0B5C48C8F7A41AADFA187324B87674FA1822B00F1ECF8136943D7C55757264E5A1A44FFE012E9936E00C1D3E9310B01C7D179805D3058B2A9F4BB6F9716BFE6117C6B5B3CC4D9BE341104AD4A80AD6C94E005F4B993E14F091EB51743BF33050C38DE235567E1B34C3D6A5C0CEAA1A0F368213C3D19843D0B4B09DCB9FC72D39C8DE41F1BF14D4BB4563CA28371621CAD3324B6A2D392145BEBFAC748805236F5CA2FE92B871CD8F9C36D3292B5509CA8CAA77A2ADFC7BFD77DDA6F71125A7456FEA153E433256A2261C6A06ED3693797E7995FAD5AABBCFBE3EDA2741E375404AE25B#)  (q #F2C3119374CE76C9356990B465374A17F23F9ED35089BD969F61C6DDE9998C1F#)  (g #5C7FF6B06F8F143FE8288433493E4769C4D988ACE5BE25A0E24809670716C613D7B0CEE6932F8FAA7C44D2CB24523DA53FBE4F6EC3595892D1AA58C4328A06C46A15662E7EAA703A1DECF8BBB2D05DBE2EB956C142A338661D10461C0D135472085057F3494309FFA73C611F78B32ADBB5740C361C9F35BE90997DB2014E2EF5AA61782F52ABEB8BD6432C4DD097BC5423B285DAFB60DC364E8161F4A2A35ACA3A10B1C4D203CC76A470A33AFDCBDD92959859ABD8B56E1725252D78EAC66E71BA9AE3F1DD2487199874393CD4D832186800654760E1E34C09E4D155179F9EC0DC4473F996BDCE6EED1CABED8B6F116F7AD9CF505DF0F998E34AB27514B0FFE7#)  (y #667098C654426C78D7F8201EAC6C203EF030D43605032C2F1FA937E5237DBD949F34A0A2564FE126DC8B715C5141802CE0979C8246463C40E6B6BDAA2513FA611728716C2E4FD53BC95B89E69949D96512E873B9C8F8DFD499CC312882561ADECB31F658E934C0C197F2C4D96B05CBAD67381E7B768891E4DA3843D24D94CDFB5126E9B8BF21E8358EE0E0A30EF13FD6A664C0DCE3731F7FB49A4845A4FD8254687972A2D382599C9BAC4E0ED7998193078913032558134976410B89D2C171D123AC35FD977219597AA7D15C1A9A428E59194F75C721EBCBCFAE44696A499AFA74E04299F132026601638CB87AB79190D4A0986315DA8EEC6561C938996BEADF#)))
+(public-key (ecc  (curve secp256r1)  (q #0460FED4BA255A9D31C961EB74C6356D68C049B8923B61FA6CE669622E60F29FB67903FE1008B8BC99A41AE9E95628BC64F2F1B20C2D7E9F5177A3C294D4462299#)))
+(public-key(dsa(p%b)(q%b)(g%b)(y%b)))
+(public-key(ecc(p%m)(a%m)(b%m)(g%m)(n%m)(h%u)(q%m)))
+(public-key(ecc(p%m)(a%m)(b%m)(g%m)(n%m)(h%u)))
+(public-key(rsa(n%b)(e%b)))
+).  The server appears to be buggy (perhaps not handling pipelined requests properly).
+*** Please check with your Libav/FFmpeg packager. ***
+-----BEGIN DSA PRIVATE KEY-----
+-----BEGIN RSA PRIVATE KEY-----
+-----END DSA PRIVATE KEY-----
+-----END RSA PRIVATE KEY-----
+----:com.apple.iTunes:LICENSE
+-Xrunjdwp:transport=dt_socket,address=8000,server=y,suspend=n
+../../../lib/ext/ext_master_secret.c
+../../../lib/ext/key_share.c
+../../../lib/ext/pre_shared_key.c
+../../../lib/ext/server_cert_type.c
+../../../lib/ext/server_name.c
+../../../lib/nettle/gost_keywrap.c
+../../../lib/x509/key_decode.c
+../../../lib/x509/key_encode.c
+../../../lib/x509/privkey.c
+../../../lib/x509/privkey_openssl.c
+../../../lib/x509/privkey_pkcs8.c
+../../../lib/x509/privkey_pkcs8_pbes1.c
+../../lib/crypto-api.c
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/arm64-v8a/libvlcjni.so
+Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+password invalid
+pthread_key_create
+pthread_key_delete
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/armeabi-v7a/libavresample.so
+Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
+Triangular Dither With Noise Shaping
+avresample_license
+libavresample license: LGPL version 2.1 or later
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/armeabi-v7a/libboxbr.so
+Android (7155654, based on r399163b1) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
+pthread_key_create
+pthread_key_delete
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/armeabi-v7a/libboxbrpro.so
+()Landroid/content/pm/PackageManager;
+()Landroid/os/Bundle;
+(ILjava/security/Key;)V
+(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
+(Landroid/content/pm/PackageInfo;)J
+(Landroid/os/Bundle;)V
+(Landroid/view/KeyEvent$Callback;I)V
+(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
+AgetnKeyFromJNI
+Android (7155654, based on r399163b1) clang version 11.0.5 (https://android.googlesource.com/toolchain/llvm-project 87f1315dfbea7c137aa2e6d362dbb457e388158d)
+AppPackage
+BUNDLE_ID
+Landroid/content/pm/PackageInfo;
+Landroid/content/pm/PackageManager$NameNotFoundException;
+Landroid/content/pm/PackageManager;
+Landroid/os/Bundle;
+Landroid/view/KeyEvent$Callback;
+Lcom/bx/xc7914/updatecontents/EZServerUpdateContents;
+Ljava/security/Key;
+Ljavax/crypto/spec/SecretKeySpec;
+PanelApiPri
+SERVER_API
+SERVER_API1
+SERVER_API2
+android/content/pm/PackageInfo
+android/content/pm/PackageManager
+android/content/pm/PackageManager$NameNotFoundException
+android/os/Bundle
+android/view/KeyEvent$Callback
+com/bx/xc7914/updatecontents/EZServerUpdateContents
+getPackageInfo
+getPackageManager
+getPackageName
+java/security/Key
+javax/crypto/spec/SecretKeySpec
+keySet
+papione
+papitwo
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/armeabi-v7a/libc++_shared.so
+Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+The future has already been retrieved from the promise or packaged_task.
+pthread_key_create
+pthread_key_delete
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/armeabi-v7a/libffmpeg.so
+Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/armeabi-v7a/libffmpegJNI.so
+Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)
+HTTP_SERVER_ERROR
+If you want to help, upload a sample of this file to ftp://upload.ffmpeg.org/incoming/ and contact the ffmpeg-devel mailing list. (ffmpeg-devel@ffmpeg.org)
+Key '%s' not found.
+Missing key or no key/value separator found after key '%s'
+Monkey's Audio
+RealAudio SIPR / ACELP.NET
+Requested noise shaping dither not available at this sampling rate, using triangular hp dither
+SMPTE 336M Key-Length-Value (KLV) metadata
+Server returned 400 Bad Request
+Server returned 401 Unauthorized (authorization failed)
+Server returned 403 Forbidden (access denied)
+Server returned 404 Not Found
+Server returned 4XX Client Error, but not one of 40{0,1,3,4}
+Server returned 5XX Server Error reply
+Setting entry with key '%s' to value '%s'
+Show all frames before the first keyframe
+The deprecated avcodec_decode_* API cannot return all the frames for this decoder. Some frames will be dropped. Update your code to the new decoding API to fix this.
+av_get_token
+av_opt_get_key_value
+avcodec_license
+avutil_license
+discard all frames except keyframes
+keyint_min
+libavcodec license: LGPL version 2.1 or later
+libavutil license: LGPL version 2.1 or later
+libswresample license: LGPL version 2.1 or later
+place global headers at every keyframe instead of in extradata
+place global headers in extradata instead of every keyframe
+select Lipshitz noise shaping dither
+select Shibata noise shaping dither
+select f-weighted noise shaping dither
+select high Shibata noise shaping dither
+select improved-e-weighted noise shaping dither
+select low Shibata noise shaping dither
+select modified-e-weighted noise shaping dither
+swresample_license
+swri_noise_shaping_double
+swri_noise_shaping_float
+swri_noise_shaping_int16
+swri_noise_shaping_int32
+swri_oldapi_conv_flt_to_s16_neon
+swri_oldapi_conv_fltp_to_s16_2ch_neon
+swri_oldapi_conv_fltp_to_s16_nch_neon
+vaapi_idct
+vaapi_moco
+vaapi_vld
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/armeabi-v7a/libjbcrypto.so
+Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
+EVP_KEY is null
+java/security/InvalidKeyException
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/armeabi-v7a/libopenvpn.so
+                         (for use with --secret, --tls-auth or --tls-crypt).
+                      ip/port rather than listen as a TCP server.
+                   (Server) Instead of forwarding IPv6 packets send
+                   nonce_secret_len=nsl.  Set alg=none to disable PRNG.
+                  3 -- allow password to be passed to scripts via env
+                  For servers: use key to decrypt client-specific keys.  For
+                  If d is specified, use separate keys for each
+                  The optional d parameter controls key directionality,
+                  The optional d parameter controls key directionality.
+                  Use shared secret file f, generate with --genkey.
+                  VPN.  Add 'local' flag if both OpenVPN servers are directly
+                  after new key renegotiation begins (default=%d).
+                  an explicit nsCertType designation t = 'client' | 'server'.
+                  and a password on the second. If either the password or both
+                  and at least min (defaults to 90%% of max on servers and equal
+                  and auth-user-pass passwords.
+                  by server EXCEPT for routes and dhcp options.
+                  client-supplied tls-crypt-v2 client key
+                  determine auth method and query for username/password
+                  encrypt generated client-specific key.  (See --tls-crypt.)
+                  explicit extended key usage. Extended key usage can be encoded
+                  explicit key usage, you can specify more than one value.
+                  f (required) is a shared-secret key file.
+                  flag to add a direct route to DHCP server, bypassing tunnel.
+                  fresh tls-crypt-v2 client key, and store to
+                  fresh tls-crypt-v2 server key, and store to keyfile
+                  in .pem format (for --tls-server only).
+                  key (required) provides the pre-shared key file.
+                  key generation (--tls-crypt-v2-genkey): use key to
+                  key usage and extended key usage based on RFC3280 TLS rules.
+                  keyfile.  If supplied, include metadata in wrapped key.
+                  management functions.  pass is a password file
+                  p = udp (default), tcp-server, or tcp-client
+                  p = udp6, tcp6-server, or tcp6-client (ipv6)
+                  see --secret option for more info.
+                  server if it starts with the text t. The action flag accept,
+                  server/remote. n = # of retries, default=1.
+                  t = 'client' | 'server'.
+                  the username and the password are omitted OpenVPN will prompt
+                  up is a file containing username/password on 2 lines, or
+                  waiting for a response before trying the next server.
+                  when connecting to a '--mode server' remote host.
+        Public key OCSP hash: 
+        Subject Public Key Info:
+  "priv_key_file" = %s
+  genkey = %s
+  genkey_filename = '%s'
+  key_direction = %s
+  key_method = %d
+  key_pass_file = '%s'
+  keysize = %d
+  persist_key = %s
+  priv_key_file = '%s'
+  prng_nonce_secret_len = %d
+  server = '%s'
+  shared_secret_file = '%s'
+  socks_proxy_server = '%s'
+  tls_server = %s
+ [key#%d state=%s id=%d sid=%s]
+# %d bit OpenVPN static key
+%*s%s Private-Key:
+%*s%s Public-Key:
+%*s<INVALID PRIVATE KEY>
+%*s<INVALID PUBLIC KEY>
+%*sKey Id: 
+%12sPublic Key Algorithm: 
+%12sUnable to load Public Key
+%s  (%d bit key%s, 
+%s PRIVATE KEY
+%s: CIPHER KEY: %s
+%s: Cipher '%s' initialized with %d bit key
+%s: HMAC KEY: %s
+%s: client key authentication error
+%s: could not decrypt client key
+%s: exported keying material: %s
+%s: failed to read client key
+%s: unwrapping client key (len=%d): %s
+%s: wrapped client key too big
+%sOptions warning: Bad backslash ('\') usage in %s:%d: remember that backslashes are treated as shell-escapes and if you need to pass backslash characters as part of a Windows filename, you should use double backslashes such as "c:\\openvpn\\static.key"
+(TEST_ENG_OPENSSL_PKEY)Loading Private key %s
+(TEST_ENG_OPENSSL_RC4) test_init_key() called
+(These options are meaningful for both Static Key & TLS-mode)
+(o->shared_secret_file != NULL) + (TLS_CLIENT == true) + (TLS_SERVER == true) <= 1
+, TLS client/server mode only
+,key-method %d
+,keydir %s
+,keysize %d
+,secret
+,tls-server
+-----BEGIN OpenVPN Static key V1-----
+-----END OpenVPN Static key V1-----
+--allow-pull-fqdn : Allow client to pull DNS names from server for
+--askpass [file]: Get PEM password from controlling tty before we daemonize.
+--auth-nocache  : Don't cache --askpass or --auth-user-pass passwords.
+--auth-token-gen: HMAC on token from client failed (%s)
+--auth-token-gen: auth-token from client expired
+--auth-user-pass [up] : Authenticate with server using username/password.
+--block-ipv6     : (Client) Instead sending IPv6 to the server generate
+--client requires --key-method 2
+--connect-timeout n : when polling possible remote servers to connect to
+--dhcp-option %s: maximum of %d %s servers can be specified
+--dhcp-option DNS: maximum of %d IPv6 dns servers can be specified
+--genkey secret file   : Generate a new random key of type and write to file
+--genkey tls-crypt-v2-client [keyfile] [base64 metadata]: Generate a
+--genkey tls-crypt-v2-client requires a server key to be set via --tls-crypt-v2 to create a client key
+--genkey tls-crypt-v2-server [keyfile] [base64 metadata]: Generate a
+--hand-window n : Data channel key exchange must finalize within n seconds
+--inetd [name] ['wait'|'nowait'] : Run as an inetd or xinetd server.
+--inetd nowait can only be used with --proto tcp-server
+--keepalive n m : Helper option for setting timeouts in server mode.  Send
+--key and --management-external-key are mutually exclusive
+--key file      : Local private key in .pem format.
+--key-method m  : (DEPRECATED) Data channel key exchange method.  m should be a method
+--keysize directive.  Using a CBC or GCM mode is recommended.
+--keysize n     : (DEPRECATED) Size of cipher key in bits (optional).
+--management ip port [pass] : Enable a TCP server on ip:port to handle
+--management user/password file
+--management-external-cert must be used with --management-external-key
+--management-forget-disconnect : Forget passwords when management disconnect
+--management-query-passwords : Query management channel for private key
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/armeabi-v7a/libopvpnutil.so
+Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
+Java_de_blinkt_openvpn_core_NativeUtils_getJNIAPI
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/armeabi-v7a/libosslspeedtest.so
+        Public key OCSP hash: 
+        Subject Public Key Info:
+%*s%s Private-Key:
+%*s%s Public-Key:
+%*s<INVALID PRIVATE KEY>
+%*s<INVALID PUBLIC KEY>
+%*sKey Id: 
+%12sPublic Key Algorithm: 
+%12sUnable to load Public Key
+%s PRIVATE KEY
+(TEST_ENG_OPENSSL_PKEY)Loading Private key %s
+(TEST_ENG_OPENSSL_RC4) test_init_key() called
+AES for ARMv4, CRYPTOGAMS by <appro@openssl.org>
+AES_set_decrypt_key
+AES_set_enc2dec_key
+AES_set_encrypt_key
+AES_unwrap_key
+AES_wrap_key
+ANY PRIVATE KEY
+AUTHORITY_KEYID
+AUTHORITY_KEYID_free
+AUTHORITY_KEYID_it
+AUTHORITY_KEYID_new
+Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
+Any Extended Key Usage
+BF_set_key
+Bit-sliced AES for NEON, CRYPTOGAMS by <appro@openssl.org>
+CMS_EncryptedData_set1_key
+CMS_KeyAgreeRecipientIdentifier
+CMS_KeyAgreeRecipientInfo
+CMS_KeyAgreeRecipientInfo_it
+CMS_KeyTransRecipientInfo
+CMS_KeyTransRecipientInfo_it
+CMS_OriginatorIdentifierOrKey
+CMS_OriginatorPublicKey
+CMS_OriginatorPublicKey_it
+CMS_OtherKeyAttribute
+CMS_OtherKeyAttribute_it
+CMS_PasswordRecipientInfo
+CMS_PasswordRecipientInfo_it
+CMS_RecipientEncryptedKey
+CMS_RecipientEncryptedKey_cert_cmp
+CMS_RecipientEncryptedKey_get0_id
+CMS_RecipientEncryptedKey_it
+CMS_RecipientInfo_get0_pkey_ctx
+CMS_RecipientInfo_kari_set0_pkey
+CMS_RecipientInfo_set0_key
+CMS_RecipientInfo_set0_password
+CMS_RecipientInfo_set0_pkey
+CMS_RecipientKeyIdentifier
+CMS_RecipientKeyIdentifier_it
+CMS_SignerInfo_get0_pkey_ctx
+CMS_add0_recipient_key
+CMS_add0_recipient_password
+CMS_decrypt_set1_key
+CMS_decrypt_set1_password
+CMS_decrypt_set1_pkey
+CTLOG_get0_public_key
+DES_check_key_parity
+DES_is_weak_key
+DES_key_sched
+DES_set_key
+DES_set_key_checked
+DES_set_key_unchecked
+DH Private-Key
+DH Public-Key
+DH_check_pub_key
+DH_check_pub_key_ex
+DH_compute_key
+DH_compute_key_padded
+DH_generate_key
+DH_get0_key
+DH_get0_priv_key
+DH_get0_pub_key
+DH_set0_key
+DSA_generate_key
+DSA_get0_key
+DSA_get0_priv_key
+DSA_get0_pub_key
+DSA_set0_key
+DSTU Gost 28147-2009 key wrap
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\asn1\t_pkey.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\conf\conf_api.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\dh\dh_key.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\ec\ec_key.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\engine\eng_pkey.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\evp\evp_key.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\evp\evp_pkey.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\pem\pem_pkey.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\pkcs12\p12_key.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\x509\x_pubkey.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\x509v3\v3_akey.c
+E:\freelance\openvpn\ics_openvpn\main\src\main\cpp\openssl\crypto\x509v3\v3_skey.c
+ECDH_compute_key
+ECP_NISTZ256 for ARMv4, CRYPTOGAMS by <appro@openssl.org>
+EC_KEY_METHOD_free
+EC_KEY_METHOD_get_compute_key
+EC_KEY_METHOD_get_init
+EC_KEY_METHOD_get_keygen
+EC_KEY_METHOD_get_sign
+EC_KEY_METHOD_get_verify
+EC_KEY_METHOD_new
+EC_KEY_METHOD_set_compute_key
+EC_KEY_METHOD_set_init
+EC_KEY_METHOD_set_keygen
+EC_KEY_METHOD_set_sign
+EC_KEY_METHOD_set_verify
+EC_KEY_OpenSSL
+EC_KEY_can_sign
+EC_KEY_check_key
+EC_KEY_clear_flags
+EC_KEY_copy
+EC_KEY_dup
+EC_KEY_free
+EC_KEY_generate_key
+EC_KEY_get0_engine
+EC_KEY_get0_group
+EC_KEY_get0_private_key
+EC_KEY_get0_public_key
+EC_KEY_get_conv_form
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/armeabi-v7a/libovpnexec.so
+Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/armeabi-v7a/libvlc.so
+			<EssentialProperty id="%d" schemeIdUri="http://dashif.org/guidelines/trickmode" value="%d"/>
+		Authority Key Identifier (%s):
+		Challenge password: %s
+		Public key (bits %d):
+		Public key (bits %d): 
+	%sPublic Key Algorithm: %s
+	<bootstrapInfo profile="named" url="stream%d.abst" id="bootstrap%d" />
+	<media bitrate="%d" url="stream%d" bootstrapInfoId="bootstrap%d">
+	Subject Public Key Algorithm: %s
+	noise shaping: %d
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd"
+                                 UDP stream sent by a streaming server
+                          %s(lessThanEqual(color.br, vec2(0.0)))) 
+                %s(lessThanEqual(color.br, vec2(0.0))));  
+    External API interop:
+  "http://www.w3.org/TR/html4/strict.dtd">
+  http://host[:port]/file        HTTP URL
+  keyframe=%d
+  xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
+  xmlns:ttp="http://www.w3.org/ns/ttml#parameter"
+  xmlns:tts="http://www.w3.org/ns/ttml#styling"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.w3.org/ns/ttml"
+ (private-key  (rsa  (n #009F56231A3D82E3E7D613D59D53E9AB921BEF9F08A782AED0B6E46ADBC853EC      7C71C422435A3CD8FA0DB9EFD55CD3295BADC4E8E2E2B94E15AE82866AB8ADE8      7E469FAE76DC3577DE87F1F419C4EB41123DFAF8D16922D5EDBAD6E9076D5A1C      958106F0AE5E2E9193C6B49124C64C2A241C4075D4AF16299EB87A6585BAE917      DEF27FCDD165764D069BC18D16527B29DAAB549F7BBED4A7C6A842D203ED6613      6E2411744E432CD26D940132F25874483DCAEECDFD95744819CBCF1EA810681C      42907EBCB1C7EAFBE75C87EC32C5413EA10476545D3FC7B2ADB1B66B7F200918      664B0E5261C2895AA28B0DE321E921B3F877172CCCAB81F43EF98002916156F6CB#)   (e #010001#)   (d #07EF82500C403899934FE993AC5A36F14FF2DF38CF1EF315F205EE4C83EDAA19       8890FC23DE9AA933CAFB37B6A8A8DBA675411958337287310D3FF2F1DDC0CB93       7E70F57F75F833C021852B631D2B9A520E4431A03C5C3FCB5742DCD841D9FB12       771AA1620DCEC3F1583426066ED9DC3F7028C5B59202C88FDF20396E2FA0EC4F       5A22D9008F3043673931BC14A5046D6327398327900867E39CC61B2D1AFE2F48       EC8E1E3861C68D257D7425F4E6F99ABD77D61F10CA100EFC14389071831B33DD       69CC8EABEF860D1DC2AAA84ABEAE5DFC91BC124DAF0F4C8EF5BBEA436751DE84       3A8063E827A024466F44C28614F93B0732A100D4A0D86D532FE1E22C7725E401#)   (p #00C29D438F115825779631CD665A5739367F3E128ADC29766483A46CA80897E0       79B32881860B8F9A6A04C2614A904F6F2578DAE13EA67CD60AE3D0AA00A1FF9B       441485E44B2DC3D0B60260FBFE073B5AC72FAF67964DE15C8212C389D20DB9CF       54AF6AEF5C4196EAA56495DD30CF709F499D5AB30CA35E086C2A1589D6283F1783#)   (q #00D1984135231CB243FE959C0CBEF551EDD986AD7BEDF71EDF447BE3DA27AF46       79C974A6FA69E4D52FE796650623DE70622862713932AA2FD9F2EC856EAEAA77       88B4EA6084DC81C902F014829B18EA8B2666EC41586818E0589E18876065F97E       8D22CE2DA53A05951EC132DCEF41E70A9C35F4ACC268FFAC2ADF54FA1DA110B919#)   (u #67CF0FD7635205DD80FA814EE9E9C267C17376BF3209FB5D1BC42890D2822A04       479DAF4D5B6ED69D0F8D1AF94164D07F8CD52ECEFE880641FA0F41DDAB1785E4       A37A32F997A516480B4CD4F6482B9466A1765093ED95023CA32D5EDC1E34CEE9       AF595BC51FE43C4BF810FA225AF697FB473B83815966188A4312C048B885E3F7#)))
+ (public-key  (rsa   (n #009F56231A3D82E3E7D613D59D53E9AB921BEF9F08A782AED0B6E46ADBC853EC       7C71C422435A3CD8FA0DB9EFD55CD3295BADC4E8E2E2B94E15AE82866AB8ADE8       7E469FAE76DC3577DE87F1F419C4EB41123DFAF8D16922D5EDBAD6E9076D5A1C       958106F0AE5E2E9193C6B49124C64C2A241C4075D4AF16299EB87A6585BAE917       DEF27FCDD165764D069BC18D16527B29DAAB549F7BBED4A7C6A842D203ED6613       6E2411744E432CD26D940132F25874483DCAEECDFD95744819CBCF1EA810681C       42907EBCB1C7EAFBE75C87EC32C5413EA10476545D3FC7B2ADB1B66B7F200918       664B0E5261C2895AA28B0DE321E921B3F877172CCCAB81F43EF98002916156F6CB#)   (e #010001#)))
+ (transient-key)
+ - extended master secret (RFC7627) enabled
+ NMTOKEN
+ NMTOKENS
+ Password.</p>
+ added new "ProxyServerMediaSubsession" for 
+ is not a 'ServerMediaSession' object
+ is not a RTSP server
+ keyint=%d
+ keyint=infinite
+ keyint_min=%d scenecut=%d intra_refresh=%d
+ xmlns="http://www.w3.org/1999/xhtml"
+!(private-key (dsa  (p #9DB6FB5951B66BB6FE1E140F1D2CE5502374161FD6538DF1648218642F0B5C48C8F7A41AADFA187324B87674FA1822B00F1ECF8136943D7C55757264E5A1A44FFE012E9936E00C1D3E9310B01C7D179805D3058B2A9F4BB6F9716BFE6117C6B5B3CC4D9BE341104AD4A80AD6C94E005F4B993E14F091EB51743BF33050C38DE235567E1B34C3D6A5C0CEAA1A0F368213C3D19843D0B4B09DCB9FC72D39C8DE41F1BF14D4BB4563CA28371621CAD3324B6A2D392145BEBFAC748805236F5CA2FE92B871CD8F9C36D3292B5509CA8CAA77A2ADFC7BFD77DDA6F71125A7456FEA153E433256A2261C6A06ED3693797E7995FAD5AABBCFBE3EDA2741E375404AE25B#)  (q #F2C3119374CE76C9356990B465374A17F23F9ED35089BD969F61C6DDE9998C1F#)  (g #5C7FF6B06F8F143FE8288433493E4769C4D988ACE5BE25A0E24809670716C613D7B0CEE6932F8FAA7C44D2CB24523DA53FBE4F6EC3595892D1AA58C4328A06C46A15662E7EAA703A1DECF8BBB2D05DBE2EB956C142A338661D10461C0D135472085057F3494309FFA73C611F78B32ADBB5740C361C9F35BE90997DB2014E2EF5AA61782F52ABEB8BD6432C4DD097BC5423B285DAFB60DC364E8161F4A2A35ACA3A10B1C4D203CC76A470A33AFDCBDD92959859ABD8B56E1725252D78EAC66E71BA9AE3F1DD2487199874393CD4D832186800654760E1E34C09E4D155179F9EC0DC4473F996BDCE6EED1CABED8B6F116F7AD9CF505DF0F998E34AB27514B0FFE7#)  (y #667098C654426C78D7F8201EAC6C203EF030D43605032C2F1FA937E5237DBD949F34A0A2564FE126DC8B715C5141802CE0979C8246463C40E6B6BDAA2513FA611728716C2E4FD53BC95B89E69949D96512E873B9C8F8DFD499CC312882561ADECB31F658E934C0C197F2C4D96B05CBAD67381E7B768891E4DA3843D24D94CDFB5126E9B8BF21E8358EE0E0A30EF13FD6A664C0DCE3731F7FB49A4845A4FD8254687972A2D382599C9BAC4E0ED7998193078913032558134976410B89D2C171D123AC35FD977219597AA7D15C1A9A428E59194F75C721EBCBCFAE44696A499AFA74E04299F132026601638CB87AB79190D4A0986315DA8EEC6561C938996BEADF#)  (x #69C7548C21D0DFEA6B9A51C9EAD4E27C33D3B3F180316E5BCAB92C933F0E4DBC#)))
+!flv->keyframe_filepositions
+!flv->keyframe_times
+"http://schemas.upnp.org/upnp/1/0/"; ns=01
+#   http://www.brynosaurus.com/cachedir/
+#EXT-X-KEY:
+#EXT-X-KEY:METHOD=AES-128,URI="%s"
+#EXT-X-KEY:METHOD=AES-128,URI="%s",IV=0X%16.16llx%16.16llx
+$LuaVersion: Lua 5.4.4  Copyright (C) 1994-2022 Lua.org, PUC-Rio $$LuaAuthors: R. Ierusalimschy, L. H. de Figueiredo, W. Celes $
+%2d %08ld polyphonic key pressure: ch %d 0x%02x 0x%02x
+%d available descrambler(s) (keys)
+%s			TLS WWW Server.
+%s		Authority Key Identifier (%s):
+%s		Key Purpose (%s):
+%s		Key Usage (%s):
+%s		Private Key Usage Period (%s):
+%s		Subject Key Identifier (%s):
+%s certificate does not allow digital signatures. Key usage violation detected (ignored).
+%s certificate does not allow digital signatures. Key usage violation detected.
+%s key %d bits, 
+%s: unknown public key algorithm: %s
+%sKey agreement.
+%sKey decipher only.
+%sKey encipher only.
+%sKey encipherment.
+%sPublic Key ID:
+%sPublic Key PIN:
+%sTransport: %s;unicast;destination=%s;source=%s;client_port=%d;server_port=%d
+%sTransport: RTP/%s;unicast;destination=%s;source=%s;client_port=%d-%d;server_port=%d-%d
+%skey-%s
+' id='%s'?><x:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='VLC 4.0.0-dev'><rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'><rdf:Description rdf:about='' xmlns:tiff='http://ns.adobe.com/tiff/1.0/'><tiff:Orientation>%u</tiff:Orientation></rdf:Description></rdf:RDF></x:xmpmeta><?xpacket end='r'?>
+'file_packet_metadata key=value:key=value' is deprecated, use multiple 'file_packet_meta key value' instead
+'meta' keys and values must be strings
+'package.%s' must be a string
+'package.searchers' must be a table
+()Landroid/security/keystore/KeyGenParameterSpec;
+()Ljavax/crypto/SecretKey;
+(I)Landroid/security/keystore/KeyGenParameterSpec$Builder;
+(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
+(Ljava/lang/String;)Ljava/security/KeyStore;
+(Ljava/lang/String;Ljava/lang/String;)Ljavax/crypto/KeyGenerator;
+(Ljava/lang/String;Ljava/security/KeyStore$ProtectionParameter;)Ljava/security/KeyStore$Entry;
+(Ljava/security/KeyStore$LoadStoreParameter;)V
+([Ljava/lang/String;)Landroid/security/keystore/KeyGenParameterSpec$Builder;
+(key-data (public-key  (dsa(p%m)(q%m)(g%m)(y%m))) (private-key  (dsa(p%m)(q%m)(g%m)(y%m)(x%m))) %S)
+(key-data (public-key  (ecc%S%S(p%m)(a%m)(b%m)(g%m)(n%m)(h%u)(q%m))) (private-key  (ecc%S%S(p%m)(a%m)(b%m)(g%m)(n%m)(h%u)(q%m)(d%m))) )
+(key-data (public-key  (ecc%S%S(q%m))) (private-key  (ecc%S%S(q%m)(d%m))) )
+(key-data (public-key  (rsa(n%m)(e%m))) (private-key  (rsa(n%m)(e%m)(d%m)(p%m)(q%m)(u%m))) %S)
+(misc-key-info
+(misc-key-info(p-q-swapped))
+(private-key(dsa(p%b)(q%b)(g%b)(y%b)(x%b)))
+(private-key(ecc(p%m)(a%m)(b%m)(g%m)(n%m)(h%u)(q%m)(d%m)))
+(private-key(rsa(n%b)(e%b)(d%b)(q%b)(p%b)(u%b)))
+(public-key (dsa  (p #9DB6FB5951B66BB6FE1E140F1D2CE5502374161FD6538DF1648218642F0B5C48C8F7A41AADFA187324B87674FA1822B00F1ECF8136943D7C55757264E5A1A44FFE012E9936E00C1D3E9310B01C7D179805D3058B2A9F4BB6F9716BFE6117C6B5B3CC4D9BE341104AD4A80AD6C94E005F4B993E14F091EB51743BF33050C38DE235567E1B34C3D6A5C0CEAA1A0F368213C3D19843D0B4B09DCB9FC72D39C8DE41F1BF14D4BB4563CA28371621CAD3324B6A2D392145BEBFAC748805236F5CA2FE92B871CD8F9C36D3292B5509CA8CAA77A2ADFC7BFD77DDA6F71125A7456FEA153E433256A2261C6A06ED3693797E7995FAD5AABBCFBE3EDA2741E375404AE25B#)  (q #F2C3119374CE76C9356990B465374A17F23F9ED35089BD969F61C6DDE9998C1F#)  (g #5C7FF6B06F8F143FE8288433493E4769C4D988ACE5BE25A0E24809670716C613D7B0CEE6932F8FAA7C44D2CB24523DA53FBE4F6EC3595892D1AA58C4328A06C46A15662E7EAA703A1DECF8BBB2D05DBE2EB956C142A338661D10461C0D135472085057F3494309FFA73C611F78B32ADBB5740C361C9F35BE90997DB2014E2EF5AA61782F52ABEB8BD6432C4DD097BC5423B285DAFB60DC364E8161F4A2A35ACA3A10B1C4D203CC76A470A33AFDCBDD92959859ABD8B56E1725252D78EAC66E71BA9AE3F1DD2487199874393CD4D832186800654760E1E34C09E4D155179F9EC0DC4473F996BDCE6EED1CABED8B6F116F7AD9CF505DF0F998E34AB27514B0FFE7#)  (y #667098C654426C78D7F8201EAC6C203EF030D43605032C2F1FA937E5237DBD949F34A0A2564FE126DC8B715C5141802CE0979C8246463C40E6B6BDAA2513FA611728716C2E4FD53BC95B89E69949D96512E873B9C8F8DFD499CC312882561ADECB31F658E934C0C197F2C4D96B05CBAD67381E7B768891E4DA3843D24D94CDFB5126E9B8BF21E8358EE0E0A30EF13FD6A664C0DCE3731F7FB49A4845A4FD8254687972A2D382599C9BAC4E0ED7998193078913032558134976410B89D2C171D123AC35FD977219597AA7D15C1A9A428E59194F75C721EBCBCFAE44696A499AFA74E04299F132026601638CB87AB79190D4A0986315DA8EEC6561C938996BEADF#)))
+(public-key (ecc  (curve secp256r1)  (q #0460FED4BA255A9D31C961EB74C6356D68C049B8923B61FA6CE669622E60F29FB67903FE1008B8BC99A41AE9E95628BC64F2F1B20C2D7E9F5177A3C294D4462299#)))
+(public-key(dsa(p%b)(q%b)(g%b)(y%b)))
+(public-key(ecc(p%m)(a%m)(b%m)(g%m)(n%m)(h%u)(q%m)))
+(public-key(ecc(p%m)(a%m)(b%m)(g%m)(n%m)(h%u)))
+(public-key(rsa(n%b)(e%b)))
+).  The server appears to be buggy (perhaps not handling pipelined requests properly).
+*** Please check with your Libav/FFmpeg packager. ***
+-----BEGIN DSA PRIVATE KEY-----
+-----BEGIN OPENSSH PRIVATE KEY-----
+-----BEGIN RSA PRIVATE KEY-----
+-----END DSA PRIVATE KEY-----
+-----END OPENSSH PRIVATE KEY-----
+-----END RSA PRIVATE KEY-----
+----:com.apple.iTunes:LICENSE
+-Xrunjdwp:transport=dt_socket,address=8000,server=y,suspend=n
+../../../lib/ext/ext_master_secret.c
+../../../lib/ext/key_share.c
+../../../lib/ext/pre_shared_key.c
+../../../lib/ext/server_cert_type.c
+../../../lib/ext/server_name.c
+../../../lib/nettle/gost_keywrap.c
+../../../lib/x509/key_decode.c
+../../../lib/x509/key_encode.c
+../../../lib/x509/privkey.c
+../../../lib/x509/privkey_openssl.c
+../../../lib/x509/privkey_pkcs8.c
+../../../lib/x509/privkey_pkcs8_pbes1.c
+../../lib/crypto-api.c
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/apktool/lib/armeabi-v7a/libvlcjni.so
+Android (9352603, based on r450784d1) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+password invalid
+pthread_key_create
+pthread_key_delete

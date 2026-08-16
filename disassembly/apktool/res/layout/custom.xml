@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:background="#d82b2a2a" android:layout_width="450.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:background="#d82b2a2a" android:layout_width="400.0dip" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+        <RelativeLayout android:id="@id/top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="3.0dip" android:text="SELECT YOUR PORTAL SERVICE" android:layout_centerHorizontal="true" android:fontFamily="@font/quicksand_bold" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:id="@id/second" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginTop="6.0dip" android:layout_below="@id/top">
+            <ListView android:gravity="center" android:id="@id/user_thread_lv" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:divider="@null" android:dividerHeight="0.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="8.0dip" android:layout_below="@id/second" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+            <bx.BXmBL android:textSize="20.0sp" android:background="@drawable/btn" android:layout_width="fill_parent" android:layout_height="40.0dip" android:fontFamily="@font/quicksand_medium" />
+            <ImageView android:textColor="#ffffffff" android:gravity="center" android:id="@id/image_expense" android:background="@drawable/dns_logo" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="8.0dip" android:adjustViewBounds="true" android:maxWidth="72.0dip" android:maxHeight="72.0dip" android:layout_marginStart="10.0dip" />
+            <TextView android:textSize="15.0dip" android:textColor="#ffeee8e8" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="VPN" android:layout_centerHorizontal="true" android:fontFamily="@font/quicksand_medium" android:layout_marginStart="8.0dip" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

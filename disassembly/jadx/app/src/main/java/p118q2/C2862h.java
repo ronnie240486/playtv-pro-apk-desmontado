@@ -1,0 +1,27 @@
+package p118q2;
+
+/* JADX INFO: renamed from: q2.h, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes2.dex */
+public final class C2862h {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public boolean f28791a;
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public byte f28792b;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    public int f28793c;
+
+    /* JADX INFO: renamed from: d, reason: collision with root package name */
+    public long f28794d;
+
+    /* JADX INFO: renamed from: e, reason: collision with root package name */
+    public int f28795e;
+
+    /* JADX INFO: renamed from: f, reason: collision with root package name */
+    public byte[] f28796f;
+
+    /* JADX INFO: renamed from: g, reason: collision with root package name */
+    public byte[] f28797g;
+}
