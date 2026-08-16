@@ -10,7 +10,7 @@ O aplicativo não usa o MAC do Wi-Fi. Na primeira execução, a atividade `Visio
 
 > O identificador permanece igual entre redes Wi-Fi, dados móveis e mudanças de roteador. Ele pode ser recriado se o usuário desinstalar o aplicativo, apagar os dados ou se o sistema restaurar o aplicativo sem os dados locais.
 
-Ao pressionar **ENTRAR**, o identificador é encaminhado ao fluxo original por meio do extra `visionus_id`. A validação final de acesso continua pertencendo à autenticação nativa e ao servidor já presentes no APK original; este build não inventa uma resposta positiva para uma conta que o servidor não autorizou.
+Ao pressionar **ENTRAR**, o identificador é encaminhado por meio do extra `visionus_id` para a `SplashActivity` original, em vez de abrir o `LoginActivity` diretamente. Isso preserva a sequência nativa de inicialização que prepara as preferências e dependências antes da autenticação. A validação final de acesso continua pertencendo à autenticação nativa e ao servidor já presentes no APK original; este build não inventa uma resposta positiva para uma conta que o servidor não autorizou.
 
 ## Marca e entrada
 
@@ -25,6 +25,6 @@ O APK foi recompilado com apktool 3.0.3, alinhado com `zipalign` e assinado com 
 | Arquivo | `artifacts/Visionus.apk` |
 | Pacote | `com.bx.xc7914multi` |
 | Versão | `7.0` — version code `914` |
-| SHA-256 | `7b7d862878fef7318f4c295ea5340a53ded1b8459d0387fadb71697872520b59` |
+| SHA-256 | `af4d40df57d2d977a2e669b86088f9c05d2624b514b1b01bfed1c3a9e67927b0` |
 | Assinatura | v1, v2 e v3 verificadas |
 | Entrada | `com.bx.xc7914.VisionusLoginActivity` |
