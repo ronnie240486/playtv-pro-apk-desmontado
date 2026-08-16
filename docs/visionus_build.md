@@ -6,7 +6,7 @@ Esta edição substitui a identidade visual principal do aplicativo por **Vision
 
 ## Identificador persistente
 
-O aplicativo não usa o MAC físico do Wi-Fi. Na primeira execução, a atividade `VisionusLoginActivity` gera um valor hexadecimal de 12 caracteres, mantém o mesmo valor entre as redes e o salva em `SharedPreferences` no arquivo lógico `visionus_identity` com as chaves `mac_address` e `stable_id`. O valor exibido é o `mac_address` virtual que deve ser cadastrado no painel.
+O aplicativo não usa o MAC físico do Wi-Fi. Na primeira execução, a atividade `VisionusLoginActivity` gera um valor hexadecimal de 12 caracteres, mantém o mesmo valor entre as redes e o salva em `SharedPreferences` no arquivo lógico `visionus_identity` com as chaves `mac_address` e `stable_id`. O valor exibido é o `mac_address` virtual que deve ser cadastrado no painel. Se uma instalação anterior já tiver `stable_id`, a atualização reutiliza esse mesmo valor e também o grava como `mac_address`, evitando a troca do identificador já cadastrado.
 
 > O identificador permanece igual entre redes Wi-Fi, dados móveis e mudanças de roteador. Ele pode ser recriado se o usuário desinstalar o aplicativo, apagar os dados ou se o sistema restaurar o aplicativo sem os dados locais.
 
@@ -27,6 +27,6 @@ O APK foi recompilado com apktool 3.0.3, alinhado com `zipalign` e assinado com 
 | Arquivo | `artifacts/Visionus.apk` |
 | Pacote | `com.bx.xc7914multi` |
 | Versão | `7.0` — version code `914` |
-| SHA-256 | `a0b9ee12d659136a12f92bf61276a1c548c3e7a41dff25e257c6cd97388abb6d` |
+| SHA-256 | `200964f4db3fde786d5bfd5cf68772df33ef43a76c6219be492031ad41440630` |
 | Assinatura | v1, v2 e v3 verificadas |
 | Entrada | `com.bx.xc7914.VisionusLoginActivity` |

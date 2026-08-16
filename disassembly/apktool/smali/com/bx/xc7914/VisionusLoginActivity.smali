@@ -30,6 +30,12 @@
 
     if-nez v3, :id_ready
 
+    const-string v1, "stable_id"
+    const/4 v2, 0x0
+    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v3
+    if-nez v3, :save_mac
+
     invoke-static {}, Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
     move-result-object v4
     invoke-virtual {v4}, Ljava/util/UUID;->toString()Ljava/lang/String;
@@ -45,6 +51,7 @@
     invoke-virtual {v4, v5, v6}, Ljava/lang/String;->substring(II)Ljava/lang/String;
     move-result-object v3
 
+:save_mac
     invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
     move-result-object v0
     const-string v1, "mac_address"
