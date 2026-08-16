@@ -53,3 +53,17 @@ A integração direta com o backend Rencia foi removida desta versão de recuper
 |---|---|
 | Tipo | Build de recuperação |
 | SHA-256 | `d79c38b8e816241e38712acdb3c59308567f4394a2550c79330ec18fcf02201c` |
+
+## Integração segura do MAC real
+
+A integração foi refeita após o crash da primeira tentativa. A causa identificada foi a sobrescrita do registrador que continha a instância do cliente durante o processamento da senha vazia; o cliente agora preserva a instância e foi recompilado sem esse erro.
+
+O MAC real informado no painel, `66:F7:AF:48:40:50`, foi consultado no backend e retornou `found:true`, `allowed:true`, `status:"Liberado"`, `app:"Ultra Player"` e uma URL M3U8 direta. A rota de listas retornou o objeto Xtream correspondente com `url`, `username`, `password` e `type:"m3u_plus"`. O APK consulta essas rotas em uma thread após o botão de entrada, grava o perfil `Default (XC)` e só depois encaminha para a SplashActivity original.
+
+| Campo | Valor |
+|---|---|
+| MAC validado | `66:F7:AF:48:40:50` |
+| Usuário do painel | `Pai sala` |
+| Status | `Liberado` |
+| App do cliente | `Ultra Player` |
+| SHA-256 desta build | `728a565a7b47a9150c587066941de39147b584441b86b8a95042f6ac93ab4b26` |
