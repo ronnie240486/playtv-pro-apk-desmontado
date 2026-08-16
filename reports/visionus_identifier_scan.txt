@@ -1,0 +1,66 @@
+# Referências a identificadores de aparelho e rede
+
+## Código Java reconstruído
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/disassembly/jadx/app/src/main/java/com/bx/xc7914/OpenVPNCountryListActivity.java:34:        this.f11923B = new String[]{"United States", "United Kingdom", "Germany", "France", "Netherlands", "Italy", "Andorra", "United Arab Emirates", "Afghanistan", "Antigua and Barbuda", "Anguilla", "Albania", "Armenia", "Angola", "Argentina", "American Samoa", "Austria", "Australia", "Aruba", "Azerbaidjan", "Bosnia and Herzegovina", "Barbados", "Bangladesh", "Belgium", "Burkina Faso", "Bulgaria", "Bahrain", "Burundi", "Benin", "Bermuda", "Brunei Darussalam", "Bolivia", "Brazil", "Bahamas", "Bhutan", "Bouvet Island", "Botswana", "Belarus", "Belize", "Canada", "Cocos (Keeling) Islands", "Central African Republic", "Congo The Democratic Republic Of The", "Congo", "Switzerland", "Ivory Coast (Cote D'Ivoire)", "Cook Islands", "Chile", "Cameroon", "China", "Colombia", "Costa Rica", "Former Czechoslovakia", "Cuba", "Cape Verde", "Christmas Island", "Cyprus", "Czech Republic", "Germany", "Djibouti", "Denmark", "Dominica", "Dominican Republic", "Algeria", "Ecuador", "Estonia", "Egypt", "Western Sahara", "Eritrea", "Spain", "Ethiopia", "Finland", "Fiji", "Falkland Islands", "Micronesia", "Faroe Islands", "France", "Gabon", "Great Britain", "Grenada", "Georgia", "French Guyana", "Ghana", "Gibraltar", "Greenland", "Gambia", "Guinea", "Guadeloupe (French)", "Equatorial Guinea", "Greece", "S. Georgia & S. Sandwich Isls.", "Guatemala", "Guam (USA)", "Guinea Bissau", "Guyana", "Hong Kong", "Heard And McDonald Islands", "Honduras", "Croatia", "Haiti", "Hungary", "Indonesia", "Ireland", "Israel", "India", "British Indian Ocean Territory", "Iraq", "Iran", "Iceland", "Italy", "Jamaica", "Jordan", "Japan", "Kenya", "Kyrgyz Republic (Kyrgyzstan)", "Cambodia", "Kiribati", "Comoros", "Saint Kitts & Nevis Anguilla", "North Korea", "South Korea", "Kuwait", "Cayman Islands", "Kazakhstan", "Laos", "Lebanon", "Saint Lucia", "Liechtenstein", "Sri Lanka", "Liberia", "Lesotho", "Lithuania", "Luxembourg", "Latvia", "Libya", "Morocco", "Monaco", "Moldavia", "Madagascar", "Marshall Islands", "Macedonia", "Mali", "Myanmar", "Mongolia", "Macau", "Northern Mariana Islands", "Martinique (French)", "Mauritania", "Montserrat", "Malta", "Mauritius", "Maldives", "Malawi", "Mexico", "Malaysia", "Mozambique", "Namibia", "New Caledonia (French)", "Niger", "Norfolk Island", "Nigeria", "Nicaragua", "Netherlands", "Norway", "Nepal", "Nauru", "Neutral Zone", "Niue", "New Zealand", "Oman", "Panama", "Peru", "Polynesia (French)", "Papua New Guinea", "Philippines", "Pakistan", "Poland", "Saint Pierre And Miquelon", "Pitcairn Island", "Puerto Rico", "Portugal", "Palau", "Paraguay", "Qatar", "Reunion (French)", "Romania", "Russian Federation", "Rwanda", "Saudi Arabia", "Solomon Islands", "Seychelles", "Sudan", "Sweden", "Singapore", "Saint Helena", "Slovenia", "Svalbard And Jan Mayen Islands", "Slovak Republic", "Sierra Leone", "San Marino", "Senegal", "Somalia", "Suriname", "Saint Tome (Sao Tome) And Principe", "Former USSR", "El Salvador", "Syria", "Swaziland", "Turks And Caicos Islands", "Chad", "French Southern Territories", "Togo", "Thailand", "Tadjikistan", "Tokelau", "Turkmenistan", "Tunisia", "Tonga", "East Timor", "Turkey", "Trinidad And Tobago", "Tuvalu", "Taiwan", "Tanzania", "Ukraine", "Uganda", "United Kingdom", "USA Minor Outlying Islands", "United States", "Uruguay", "Uzbekistan", "Holy See (Vatican City State)", "Saint Vincent & Grenadines", "Venezuela", "Virgin Islands (British)", "Virgin Islands (USA)", "Vietnam", "Vanuatu", "Wallis And Futuna Islands", "Samoa", "Yemen", "Mayotte", "Yugoslavia", "South Africa", "Zambia", "Zaire", "Zimbabwe"};
+
+## Smali do pacote próprio
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/disassembly/apktool/smali/com/bx/xc7914/OpenVPNCountryListActivity.smali:1332:    const-string v3, "Macedonia"
+/home/ubuntu/apk_reverse_jyz0umfd9lfaq3/disassembly/apktool/smali/com/bx/xc7914/OpenVPNCountryListActivity.smali:1368:    const-string v3, "Macau"
+
+## Strings nas bibliotecas próprias
+### /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/disassembly/apktool/lib/arm64-v8a/libboxbr.so
+.note.android.ident
+N12_GLOBAL__N_116itanium_demangle10UUIDOfExprE
+__uuidof(
+### /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/disassembly/apktool/lib/arm64-v8a/libboxbrpro.so
+()Landroid/net/wifi/WifiInfo;
+([B)Ljava/net/InetAddress;
+([B)Ljava/util/UUID;
+.note.android.ident
+Landroid/net/wifi/WifiInfo;
+Landroid/net/wifi/WifiManager;
+Ljava/net/InetAddress;
+Ljava/net/NetworkInterface;
+Ljava/util/UUID;
+android/net/wifi/WifiInfo
+android/net/wifi/WifiManager
+getByAddress
+getHostAddress
+getIdentifier
+getInetAddresses
+getIpAddress
+getNetworkInterfaces
+isLoopbackAddress
+java/net/InetAddress
+java/net/NetworkInterface
+java/util/UUID
+nameUUIDFromBytes
+### /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/disassembly/apktool/lib/armeabi-v7a/libboxbr.so
+.note.android.ident
+N12_GLOBAL__N_116itanium_demangle10UUIDOfExprE
+__uuidof(
+u8__uuidoft
+u8__uuidofz
+### /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/disassembly/apktool/lib/armeabi-v7a/libboxbrpro.so
+()Landroid/net/wifi/WifiInfo;
+([B)Ljava/net/InetAddress;
+([B)Ljava/util/UUID;
+.note.android.ident
+Landroid/net/wifi/WifiInfo;
+Landroid/net/wifi/WifiManager;
+Ljava/net/InetAddress;
+Ljava/net/NetworkInterface;
+Ljava/util/UUID;
+android/net/wifi/WifiInfo
+android/net/wifi/WifiManager
+getByAddress
+getHostAddress
+getIdentifier
+getInetAddresses
+getIpAddress
+getNetworkInterfaces
+isLoopbackAddress
+java/net/InetAddress
+java/net/NetworkInterface
+java/util/UUID
+nameUUIDFromBytes

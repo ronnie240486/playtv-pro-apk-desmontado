@@ -38,7 +38,7 @@
     <string name="allowed_apps">Allowed apps: %s</string>
     <string name="allowed_vpn_apps_info">Allowed VPN apps: %1$s</string>
     <string name="androidx_startup">androidx.startup</string>
-    <string name="app_name">PlayTV Pro</string>
+    <string name="app_name">Visionus</string>
     <string name="app_no_longer_exists">Package %s is no longer installed, removing it from app allow/disallow list</string>
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="appbehaviour">Application behaviour</string>

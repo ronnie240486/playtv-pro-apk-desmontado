@@ -12,3 +12,7 @@ build/
 
 # Saídas locais de ferramentas
 /tmp/
+
+# Material local de assinatura e sondagem
+keys/
+nores_probe/

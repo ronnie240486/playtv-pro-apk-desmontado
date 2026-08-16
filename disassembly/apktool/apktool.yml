@@ -79,5 +79,5 @@ usesFramework:
   tag: null
 version: 2.7.0-dirty
 versionInfo:
-  versionCode: '914'
-  versionName: '7.0'
+  versionCode: 914
+  versionName: 7.0

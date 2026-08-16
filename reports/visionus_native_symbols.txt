@@ -1,0 +1,11 @@
+# Símbolos JNI das bibliotecas próprias
+
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/disassembly/apktool/lib/arm64-v8a/libboxbr.so
+
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/disassembly/apktool/lib/arm64-v8a/libboxbrpro.so
+    16: 0000000000055034   136 FUNC    GLOBAL DEFAULT   14 JNI_OnLoad
+
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/disassembly/apktool/lib/armeabi-v7a/libboxbr.so
+
+## /home/ubuntu/apk_reverse_jyz0umfd9lfaq3/disassembly/apktool/lib/armeabi-v7a/libboxbrpro.so
+    17: 000503d1    76 FUNC    GLOBAL DEFAULT   14 JNI_OnLoad
