@@ -2,7 +2,7 @@
 
 ## Resumo
 
-Esta edição substitui a identidade visual principal do aplicativo por **Visionus**, aplica o novo emblema e wordmark aos recursos Android e adiciona uma tela inicial própria para exibir um identificador persistente de 12 caracteres. A atividade recebeu um construtor público sem argumentos, corrigindo o erro `has no zero argument constructor` que impedia o Android de iniciá-la.
+Esta edição substitui a identidade visual principal do aplicativo por **Visionus**, aplica o novo emblema e wordmark aos recursos Android e adiciona uma tela inicial própria para exibir um identificador persistente de 12 caracteres. A atividade recebeu um construtor público sem argumentos, corrigindo o erro `has no zero argument constructor` que impedia o Android de iniciá-la. Também foi corrigido o descritor smali de `View.setPadding`, que precisava de quatro inteiros (`(IIII)V`) e causava `VerifyError` no offset `0x95`.
 
 ## Identificador persistente
 
@@ -25,6 +25,6 @@ O APK foi recompilado com apktool 3.0.3, alinhado com `zipalign` e assinado com 
 | Arquivo | `artifacts/Visionus.apk` |
 | Pacote | `com.bx.xc7914multi` |
 | Versão | `7.0` — version code `914` |
-| SHA-256 | `766f6e03be41b30817ae522a680c1d6724c56514769f0e25a611bf47722cb24d` |
+| SHA-256 | `b44f046962d53a6a900b04aa170c4e356d26392c0e8d8c97ac9d44c9a9e356ed` |
 | Assinatura | v1, v2 e v3 verificadas |
 | Entrada | `com.bx.xc7914.VisionusLoginActivity` |
