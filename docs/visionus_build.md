@@ -44,3 +44,12 @@ A rota foi verificada com um MAC de teste e retornou `found:false`, `allowed:fal
 | Listas | `/api/guim.php?mac={MAC}` |
 | Perfil local | `Default (XC)` |
 | SHA-256 desta integração | `42443cd753080fe8d796ab29e005c6c4df80f294ae793285e516e5d9e91a2d6d` |
+
+## Build de recuperação após crash
+
+A integração direta com o backend Rencia foi removida desta versão de recuperação porque a implementação experimental fazia o APK fechar antes da tela inicial. O launcher voltou à base Visionus que abre normalmente; a consulta por MAC ainda não está incluída nesta build. O cliente backend deve ser refeito em uma etapa separada usando uma integração Android mais segura e testada.
+
+| Campo | Valor |
+|---|---|
+| Tipo | Build de recuperação |
+| SHA-256 | `d79c38b8e816241e38712acdb3c59308567f4394a2550c79330ec18fcf02201c` |
