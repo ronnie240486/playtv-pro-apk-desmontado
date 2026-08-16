@@ -12,6 +12,8 @@ O aplicativo não usa o MAC do Wi-Fi. Na primeira execução, a atividade `Visio
 
 Ao pressionar **ENTRAR**, o identificador é encaminhado por meio do extra `visionus_id` para a `SplashActivity` original, em vez de abrir o `LoginActivity` diretamente. Isso preserva a sequência nativa de inicialização que prepara as preferências e dependências antes da autenticação. A validação final de acesso continua pertencendo à autenticação nativa e ao servidor já presentes no APK original; este build não inventa uma resposta positiva para uma conta que o servidor não autorizou.
 
+A tela nativa de usuário, senha e botão de autenticação não foi removida. Foi adicionado um overlay visual não bloqueante com a marca Visionus e a indicação de acesso pelo ID do aparelho. Os componentes originais continuam presentes para que o código nativo não receba referências nulas; ocultar os campos visualmente não substitui a autenticação que o servidor exige.
+
 ## Marca e entrada
 
 A atividade `VisionusLoginActivity` passou a ser a atividade `MAIN/LAUNCHER`. A `SplashActivity` original permanece declarada, mas deixou de ser o ponto de entrada. O nome de aplicativo foi alterado para `Visionus`, e os recursos `logo.png`, `logo2.png`, `atv_icon.png`, ícones de launcher e banners foram substituídos pelo material visual Visionus.
@@ -25,6 +27,6 @@ O APK foi recompilado com apktool 3.0.3, alinhado com `zipalign` e assinado com 
 | Arquivo | `artifacts/Visionus.apk` |
 | Pacote | `com.bx.xc7914multi` |
 | Versão | `7.0` — version code `914` |
-| SHA-256 | `af4d40df57d2d977a2e669b86088f9c05d2624b514b1b01bfed1c3a9e67927b0` |
+| SHA-256 | `22cfd10fe002a3383c0e3f1f6f1b7956f26877fdc070bb20405578477f8a0545` |
 | Assinatura | v1, v2 e v3 verificadas |
 | Entrada | `com.bx.xc7914.VisionusLoginActivity` |
