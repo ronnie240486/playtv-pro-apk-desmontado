@@ -67,3 +67,13 @@ O MAC real informado no painel, `66:F7:AF:48:40:50`, foi consultado no backend e
 | Status | `Liberado` |
 | App do cliente | `Ultra Player` |
 | SHA-256 desta build | `728a565a7b47a9150c587066941de39147b584441b86b8a95042f6ac93ab4b26` |
+
+## Correção da consulta HTTPS
+
+A captura do aparelho mostrou que o painel não era consultado pelo APK. A camada de rede foi ajustada para codificar o MAC com segurança, seguir redirecionamentos, habilitar entrada da conexão, desabilitar cache e enviar `Accept: application/json` e `User-Agent: Visionus/1.0`. A permissão `android.permission.INTERNET` já existe no manifesto e o uso de HTTP para a lista M3U8 continua separado da consulta HTTPS ao painel.
+
+| Campo | Valor |
+|---|---|
+| Build | Correção de transporte e codificação |
+| MAC de validação | `66:F7:AF:48:40:50` |
+| SHA-256 | `0817f0cc1188799c83dd104ab8944e16af03ff4e762ad41debf6421f1ca426ad` |

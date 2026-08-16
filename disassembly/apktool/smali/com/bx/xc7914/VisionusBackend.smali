@@ -67,11 +67,20 @@
     check-cast v0, Ljava/net/HttpURLConnection;
     const-string v1, "GET"
     invoke-virtual {v0, v1}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
+    const/4 v1, 0x1
+    invoke-virtual {v0, v1}, Ljava/net/HttpURLConnection;->setInstanceFollowRedirects(Z)V
+    const/4 v1, 0x1
+    invoke-virtual {v0, v1}, Ljava/net/URLConnection;->setDoInput(Z)V
+    const/4 v1, 0x0
+    invoke-virtual {v0, v1}, Ljava/net/URLConnection;->setUseCaches(Z)V
     const/16 v1, 0x4e20
     invoke-virtual {v0, v1}, Ljava/net/URLConnection;->setConnectTimeout(I)V
     invoke-virtual {v0, v1}, Ljava/net/URLConnection;->setReadTimeout(I)V
     const-string v1, "Accept"
     const-string v2, "application/json"
+    invoke-virtual {v0, v1, v2}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    const-string v1, "User-Agent"
+    const-string v2, "Visionus/1.0"
     invoke-virtual {v0, v1, v2}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
     invoke-virtual {v0}, Ljava/net/URLConnection;->connect()V
     invoke-virtual {v0}, Ljava/net/URLConnection;->getInputStream()Ljava/io/InputStream;
@@ -118,7 +127,8 @@
     invoke-static {v0}, Lcom/bx/xc7914/VisionusBackend;->toPanelMac(Ljava/lang/String;)Ljava/lang/String;
     move-result-object v0
     const-string v1, "https://renciaapp.manus.space/api/device/check?mac="
-    invoke-static {v0, v1}, Landroid/net/Uri;->encode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    const-string v2, ""
+    invoke-static {v0, v2}, Landroid/net/Uri;->encode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     move-result-object v2
     const-string v3, "https://renciaapp.manus.space/api/device/check?mac="
     invoke-virtual {v3, v2}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
