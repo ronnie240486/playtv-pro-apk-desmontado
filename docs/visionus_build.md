@@ -30,3 +30,17 @@ O APK foi recompilado com apktool 3.0.3, alinhado com `zipalign` e assinado com 
 | SHA-256 | `f11607706dfc84cec31ba20dd0aa661b92cb8340a0c41f6a5b0d5bf45912a09e` |
 | Assinatura | v1, v2 e v3 verificadas |
 | Entrada | `com.bx.xc7914.VisionusLoginActivity` |
+
+## Integração com o backend Rencia
+
+Esta compilação adiciona uma consulta HTTPS antes de abrir a SplashActivity. O APK normaliza o MAC virtual para o formato `AA:BB:CC:DD:EE:FF`, consulta `/api/device/check?mac={MAC}` e interrompe o fluxo quando `allowed` é falso. Quando o aparelho é permitido, consulta `/api/guim.php?mac={MAC}`, grava cada item retornado no banco local `xciptv.db` como o perfil `Default (XC)` e só então inicia a sequência nativa. Os campos `url`, `username` e `password` retornados pelo painel são usados pelo fluxo Xtream original; o `device_key`, quando presente, é encaminhado separadamente.
+
+A rota foi verificada com um MAC de teste e retornou `found:false`, `allowed:false` e `data:[]`, conforme esperado para um aparelho não cadastrado. Este build foi compilado e assinado localmente; o teste de acesso com o seu MAC depende do cadastro efetivo no painel.
+
+| Campo | Valor |
+|---|---|
+| Backend | `https://renciaapp.manus.space` |
+| Validação | `/api/device/check?mac={MAC}` |
+| Listas | `/api/guim.php?mac={MAC}` |
+| Perfil local | `Default (XC)` |
+| SHA-256 desta integração | `42443cd753080fe8d796ab29e005c6c4df80f294ae793285e516e5d9e91a2d6d` |
