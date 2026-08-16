@@ -12,7 +12,7 @@ O aplicativo não usa o MAC físico do Wi-Fi. Na primeira execução, a atividad
 
 Ao pressionar **ENTRAR**, o identificador é encaminhado pelos extras `visionus_id` e `mac_address` para a `SplashActivity` original, em vez de abrir o `LoginActivity` diretamente. Isso preserva a sequência nativa de inicialização que prepara as preferências e dependências antes da autenticação. A validação final de acesso continua pertencendo à autenticação nativa e ao servidor já presentes no APK original; este build não inventa uma resposta positiva para uma conta que o servidor não autorizou.
 
-A tela nativa de usuário, senha e botão de autenticação não foi removida do layout: os componentes e IDs continuam presentes para o código nativo. Nesta edição, os containers de usuário, senha, seleção de serviço e botões de cadastro/login ficam ocultos visualmente, enquanto o overlay Visionus e o MAC virtual permanecem na interface. Ocultar os campos não substitui a autenticação que o servidor exige.
+A tela nativa de usuário, senha e botão de autenticação não foi removida do layout: os componentes e IDs continuam presentes para o código nativo. Nesta edição, os containers de usuário e senha usam `VisionusHiddenLayout`, que mantém os componentes e IDs disponíveis, mas ignora tentativas do código nativo de torná-los visíveis em runtime. Os botões e containers de cadastro/login continuam presentes internamente, enquanto o overlay Visionus e o MAC virtual permanecem na interface. Ocultar os campos não substitui a autenticação que o servidor exige.
 
 ## Marca e entrada
 
@@ -27,6 +27,6 @@ O APK foi recompilado com apktool 3.0.3, alinhado com `zipalign` e assinado com 
 | Arquivo | `artifacts/Visionus.apk` |
 | Pacote | `com.bx.xc7914multi` |
 | Versão | `7.0` — version code `914` |
-| SHA-256 | `79a27725be8395816341c2802123882d17da56368b9b25e9b6d062c17d9f76cc` |
+| SHA-256 | `f11607706dfc84cec31ba20dd0aa661b92cb8340a0c41f6a5b0d5bf45912a09e` |
 | Assinatura | v1, v2 e v3 verificadas |
 | Entrada | `com.bx.xc7914.VisionusLoginActivity` |
