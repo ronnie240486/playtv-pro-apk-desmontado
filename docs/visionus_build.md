@@ -6,13 +6,13 @@ Esta edição substitui a identidade visual principal do aplicativo por **Vision
 
 ## Identificador persistente
 
-O aplicativo não usa o MAC do Wi-Fi. Na primeira execução, a atividade `VisionusLoginActivity` gera um UUID aleatório, remove os hífens, converte o resultado para letras maiúsculas e utiliza os primeiros 12 caracteres hexadecimais. O valor é salvo em `SharedPreferences` no arquivo lógico `visionus_identity`, chave `stable_id`.
+O aplicativo não usa o MAC físico do Wi-Fi. Na primeira execução, a atividade `VisionusLoginActivity` gera um valor hexadecimal de 12 caracteres, mantém o mesmo valor entre as redes e o salva em `SharedPreferences` no arquivo lógico `visionus_identity` com as chaves `mac_address` e `stable_id`. O valor exibido é o `mac_address` virtual que deve ser cadastrado no painel.
 
 > O identificador permanece igual entre redes Wi-Fi, dados móveis e mudanças de roteador. Ele pode ser recriado se o usuário desinstalar o aplicativo, apagar os dados ou se o sistema restaurar o aplicativo sem os dados locais.
 
-Ao pressionar **ENTRAR**, o identificador é encaminhado por meio do extra `visionus_id` para a `SplashActivity` original, em vez de abrir o `LoginActivity` diretamente. Isso preserva a sequência nativa de inicialização que prepara as preferências e dependências antes da autenticação. A validação final de acesso continua pertencendo à autenticação nativa e ao servidor já presentes no APK original; este build não inventa uma resposta positiva para uma conta que o servidor não autorizou.
+Ao pressionar **ENTRAR**, o identificador é encaminhado pelos extras `visionus_id` e `mac_address` para a `SplashActivity` original, em vez de abrir o `LoginActivity` diretamente. Isso preserva a sequência nativa de inicialização que prepara as preferências e dependências antes da autenticação. A validação final de acesso continua pertencendo à autenticação nativa e ao servidor já presentes no APK original; este build não inventa uma resposta positiva para uma conta que o servidor não autorizou.
 
-A tela nativa de usuário, senha e botão de autenticação não foi removida. Foi adicionado um overlay visual não bloqueante com a marca Visionus e a indicação de acesso pelo ID do aparelho. Os componentes originais continuam presentes para que o código nativo não receba referências nulas; ocultar os campos visualmente não substitui a autenticação que o servidor exige.
+A tela nativa de usuário, senha e botão de autenticação não foi removida. Foi adicionado um overlay visual não bloqueante com a marca Visionus e a indicação de cadastro do `mac_address` no painel. Os componentes originais continuam presentes para que o código nativo não receba referências nulas; ocultar os campos visualmente não substitui a autenticação que o servidor exige.
 
 ## Marca e entrada
 
@@ -27,6 +27,6 @@ O APK foi recompilado com apktool 3.0.3, alinhado com `zipalign` e assinado com 
 | Arquivo | `artifacts/Visionus.apk` |
 | Pacote | `com.bx.xc7914multi` |
 | Versão | `7.0` — version code `914` |
-| SHA-256 | `22cfd10fe002a3383c0e3f1f6f1b7956f26877fdc070bb20405578477f8a0545` |
+| SHA-256 | `a0b9ee12d659136a12f92bf61276a1c548c3e7a41dff25e257c6cd97388abb6d` |
 | Assinatura | v1, v2 e v3 verificadas |
 | Entrada | `com.bx.xc7914.VisionusLoginActivity` |

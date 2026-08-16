@@ -4,7 +4,7 @@
 .implements Landroid/view/View$OnClickListener;
 
 .field private static final PREF_NAME:Ljava/lang/String; = "visionus_identity"
-.field private static final PREF_ID:Ljava/lang/String; = "stable_id"
+.field private static final PREF_ID:Ljava/lang/String; = "mac_address"
 .field private stableId:Ljava/lang/String;
 
 .method public constructor <init>()V
@@ -23,7 +23,7 @@
     invoke-virtual {p0, v0, v1}, Landroid/app/Activity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
     move-result-object v0
 
-    const-string v1, "stable_id"
+    const-string v1, "mac_address"
     const/4 v2, 0x0
     invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     move-result-object v3
@@ -46,6 +46,9 @@
     move-result-object v3
 
     invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+    move-result-object v0
+    const-string v1, "mac_address"
+    invoke-interface {v0, v1, v3}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
     move-result-object v0
     const-string v1, "stable_id"
     invoke-interface {v0, v1, v3}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
@@ -83,7 +86,7 @@
 
     new-instance v1, Landroid/widget/TextView;
     invoke-direct {v1, p0}, Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
-    const-string v2, "Seu identificador Visionus:\n"
+    const-string v2, "MAC virtual fixo Visionus:\n"
     invoke-virtual {v2, v3}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
     move-result-object v2
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
@@ -102,7 +105,7 @@
 
     new-instance v1, Landroid/widget/TextView;
     invoke-direct {v1, p0}, Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
-    const-string v2, "Este identificador permanece igual entre redes."
+    const-string v2, "Cadastre este valor no painel como mac_address."
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
     const/high16 v2, 0x41700000
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setTextSize(F)V
@@ -130,6 +133,10 @@
     const-class v1, Lcom/bx/xc7914/SplashActivity;
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
     const-string v1, "visionus_id"
+    iget-object v2, p0, Lcom/bx/xc7914/VisionusLoginActivity;->stableId:Ljava/lang/String;
+    invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    move-result-object v0
+    const-string v1, "mac_address"
     iget-object v2, p0, Lcom/bx/xc7914/VisionusLoginActivity;->stableId:Ljava/lang/String;
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
     invoke-virtual {p0, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
