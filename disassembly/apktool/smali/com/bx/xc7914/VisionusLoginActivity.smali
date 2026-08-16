@@ -7,6 +7,12 @@
 .field private static final PREF_ID:Ljava/lang/String; = "stable_id"
 .field private stableId:Ljava/lang/String;
 
+.method public constructor <init>()V
+    .locals 0
+    invoke-direct {p0}, Landroid/app/Activity;-><init>()V
+    return-void
+.end method
+
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 12
 
