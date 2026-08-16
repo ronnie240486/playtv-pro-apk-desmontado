@@ -94,7 +94,10 @@
     const/16 v2, 0x11
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setGravity(I)V
     const/16 v2, 0x20
-    invoke-virtual {v1, v2}, Landroid/widget/TextView;->setPadding(IIII)V
+    const/16 v3, 0x20
+    const/16 v4, 0x20
+    const/16 v5, 0x20
+    invoke-virtual {v1, v2, v3, v4, v5}, Landroid/view/View;->setPadding(IIII)V
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     new-instance v1, Landroid/widget/TextView;
